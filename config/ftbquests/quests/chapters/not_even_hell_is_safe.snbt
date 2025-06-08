@@ -1,0 +1,757 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "not_even_hell_is_safe"
+	group: "6F1811463D439CE9"
+	icon: "additional_lights:fire_for_standing_torch_s"
+	id: "0E1F8E26B4078A0E"
+	images: [
+		{
+			height: 5.0d
+			image: "chipped:block/nether_bricks/unamused_nether_bricks"
+			rotation: 0.0d
+			width: 5.0d
+			x: -1.75d
+			y: -6.535714285714288d
+		}
+		{
+			height: 5.0d
+			image: "minecraft:block/nether_bricks"
+			rotation: 0.0d
+			width: 5.0d
+			x: -5.964285714285715d
+			y: -6.5714285714285765d
+		}
+		{
+			height: 5.0d
+			image: "minecraft:block/nether_bricks"
+			rotation: 0.0d
+			width: 5.0d
+			x: -1.732142857142854d
+			y: -2.357142857142861d
+		}
+		{
+			height: 5.0d
+			image: "minecraft:block/nether_bricks"
+			rotation: 0.0d
+			width: 5.0d
+			x: 2.499999999999993d
+			y: -6.535714285714292d
+		}
+		{
+			height: 5.0d
+			image: "minecraft:block/nether_bricks"
+			rotation: 0.0d
+			width: 5.0d
+			x: 2.392857142857139d
+			y: -2.4642857142857153d
+		}
+		{
+			height: 5.0d
+			image: "minecraft:block/nether_bricks"
+			rotation: 0.0d
+			width: 5.0d
+			x: -5.964285714285715d
+			y: -2.357142857142861d
+		}
+		{
+			height: 5.0d
+			image: "minecraft:block/nether_bricks"
+			rotation: 0.0d
+			width: 5.0d
+			x: -10.07142857142857d
+			y: -2.392857142857153d
+		}
+		{
+			height: 5.0d
+			image: "minecraft:block/nether_bricks"
+			rotation: 0.0d
+			width: 5.0d
+			x: -10.178571428571423d
+			y: -10.785714285714285d
+		}
+		{
+			height: 5.0d
+			image: "minecraft:block/nether_bricks"
+			rotation: 0.0d
+			width: 5.0d
+			x: -10.142857142857132d
+			y: -6.607142857142868d
+		}
+		{
+			height: 5.0d
+			image: "minecraft:block/nether_bricks"
+			rotation: 0.0d
+			width: 5.0d
+			x: -5.964285714285694d
+			y: 1.7142857142857224d
+		}
+		{
+			height: 5.0d
+			image: "minecraft:block/nether_bricks"
+			rotation: 0.0d
+			width: 5.0d
+			x: -10.142857142857132d
+			y: 1.7857142857142847d
+		}
+		{
+			height: 5.0d
+			image: "minecraft:block/nether_bricks"
+			rotation: 0.0d
+			width: 5.0d
+			x: -1.821428571428548d
+			y: 1.8571428571428683d
+		}
+		{
+			height: 5.0d
+			image: "minecraft:block/nether_bricks"
+			rotation: 0.0d
+			width: 5.0d
+			x: 2.3214285714285836d
+			y: 1.785714285714299d
+		}
+		{
+			height: 5.0d
+			image: "minecraft:block/nether_bricks"
+			rotation: 0.0d
+			width: 5.0d
+			x: 6.678571428571438d
+			y: -6.60714285714284d
+		}
+		{
+			height: 5.0d
+			image: "minecraft:block/nether_bricks"
+			rotation: 0.0d
+			width: 5.0d
+			x: 6.5d
+			y: -2.5d
+		}
+		{
+			height: 5.0d
+			image: "minecraft:block/nether_bricks"
+			rotation: 0.0d
+			width: 5.0d
+			x: 6.428571428571445d
+			y: 1.7500000000000142d
+		}
+		{
+			height: 5.0d
+			image: "minecraft:block/nether_bricks"
+			rotation: 0.0d
+			width: 5.0d
+			x: -14.32142857142857d
+			y: 1.8571428571428683d
+		}
+		{
+			height: 5.0d
+			image: "minecraft:block/nether_bricks"
+			rotation: 0.0d
+			width: 5.0d
+			x: -14.249999999999993d
+			y: -2.357142857142847d
+		}
+		{
+			height: 5.0d
+			image: "minecraft:block/nether_bricks"
+			rotation: 0.0d
+			width: 5.0d
+			x: -14.321428571428562d
+			y: -6.499999999999993d
+		}
+		{
+			height: 5.0d
+			image: "minecraft:block/nether_bricks"
+			rotation: 0.0d
+			width: 5.0d
+			x: -5.964285714285701d
+			y: -10.785714285714278d
+		}
+		{
+			height: 5.0d
+			image: "minecraft:block/nether_bricks"
+			rotation: 0.0d
+			width: 5.0d
+			x: -14.357142857142847d
+			y: -10.714285714285708d
+		}
+		{
+			height: 5.0d
+			image: "minecraft:block/nether_bricks"
+			rotation: 0.0d
+			width: 5.0d
+			x: -1.7499999999999858d
+			y: -10.82142857142857d
+		}
+		{
+			height: 5.0d
+			image: "minecraft:block/nether_bricks"
+			rotation: 0.0d
+			width: 5.0d
+			x: 2.357142857142861d
+			y: -10.749999999999993d
+		}
+		{
+			height: 5.0d
+			image: "minecraft:block/nether_bricks"
+			rotation: 0.0d
+			width: 5.0d
+			x: 6.607142857142861d
+			y: -10.678571428571423d
+		}
+		{
+			height: 5.0d
+			image: "minecraft:block/nether_bricks"
+			rotation: 0.0d
+			width: 5.0d
+			x: -6.0d
+			y: 5.5d
+		}
+		{
+			height: 5.0d
+			image: "minecraft:block/nether_bricks"
+			rotation: 0.0d
+			width: 5.0d
+			x: -10.250000000000007d
+			y: 5.535714285714285d
+		}
+		{
+			height: 5.0d
+			image: "minecraft:block/nether_bricks"
+			rotation: 0.0d
+			width: 5.0d
+			x: -1.750000000000007d
+			y: 5.571428571428569d
+		}
+		{
+			height: 5.0d
+			image: "minecraft:block/nether_bricks"
+			rotation: 0.0d
+			width: 5.0d
+			x: 2.4285714285714235d
+			y: 5.714285714285708d
+		}
+		{
+			height: 5.0d
+			image: "minecraft:block/nether_bricks"
+			rotation: 0.0d
+			width: 5.0d
+			x: 6.607142857142847d
+			y: 5.749999999999993d
+		}
+		{
+			height: 5.0d
+			image: "minecraft:block/nether_bricks"
+			rotation: 0.0d
+			width: 5.0d
+			x: -14.500000000000007d
+			y: 5.964285714285715d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["6A09DE1B15D415F2"]
+			id: "687DE001BA5057DC"
+			rewards: [
+				{
+					count: 16
+					id: "16CDBC5EFCE0D560"
+					item: "minecraft:netherrack"
+					type: "item"
+				}
+				{
+					id: "609D592667472889"
+					type: "xp"
+					xp: 15
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6AD745F4D2AF0402"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				icon: "minecraft:crying_obsidian"
+				id: "221345B1A02C9CCF"
+				title: "Enter the Nether"
+				type: "dimension"
+			}]
+			title: "Begin Nether Reconaissance"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["687DE001BA5057DC"]
+			id: "32AB0ED18A767D96"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "08A852D52FAE79BD"
+					table_id: 487623848494439020L
+					type: "loot"
+				}
+				{
+					count: 8
+					id: "0F633B3385A44752"
+					item: "minecraft:bread"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				id: "05077EC575B9FFB2"
+				structure: "betterfortresses:fortress"
+				title: "Nether Fortress"
+				type: "structure"
+			}]
+			title: "Enter the Nether Fortress"
+			x: -0.0714285714285765d
+			y: -3.035714285714292d
+		}
+		{
+			dependencies: ["32AB0ED18A767D96"]
+			id: "112E7ECD5C6FA433"
+			rewards: [
+				{
+					id: "27A8E1D53766C71B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "43E005A0327E2915"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			size: 2.0d
+			tasks: [
+				{
+					count: 3L
+					id: "6D18979C35A43AA4"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "5AE13179984403DD"
+					item: "minecraft:soul_sand"
+					type: "item"
+				}
+			]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			id: "6A09DE1B15D415F2"
+			rewards: [
+				{
+					id: "461E67D26F7F2529"
+					item: {
+						Count: 1
+						id: "minecraft:flint_and_steel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "70012B13A6A578FF"
+					type: "xp"
+					xp: 15
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7A3E6FF570A945A9"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			size: 3.0d
+			subtitle: "Construct the portal that shall help us control the Nether Highway Networks or NHN"
+			tasks: [{
+				count: 10L
+				id: "57D47AD2359927D9"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			title: "Connect to the Nether Highways"
+			x: -0.0714285714285765d
+			y: -0.035714285714291805d
+		}
+		{
+			icon: "minecraft:netherrack"
+			id: "0E0D21D992E4BED8"
+			tasks: [{
+				biome: "minecraft:nether_wastes"
+				id: "4BB0755B2D3E0352"
+				title: "The Wastelands of the Nether"
+				type: "biome"
+			}]
+			x: -8.5d
+			y: -3.0d
+		}
+		{
+			icon: "biomesoplenty:rose_quartz_cluster"
+			id: "3D1D1E6C0B40B474"
+			tasks: [{
+				biome: "biomesoplenty:crystalline_chasm"
+				id: "7858D45AD391320F"
+				title: "Hellish Crystals"
+				type: "biome"
+			}]
+			x: -9.0d
+			y: -2.0d
+		}
+		{
+			id: "65DD26B426D2A98D"
+			tasks: [{
+				biome: "biomesoplenty:withered_abyss"
+				icon: "alexscaves:abyssmarine"
+				id: "6622601D0B43C12D"
+				title: "Visit the Withered Abyss"
+				type: "biome"
+			}]
+			title: "The embodiment of Ofelians warnings"
+			x: -7.0d
+			y: -1.5d
+		}
+		{
+			id: "3B395339B8F25468"
+			tasks: [{
+				biome: "incendium:infernal_dunes"
+				icon: "minecraft:lava_bucket"
+				id: "0DDF91C0C28F005F"
+				title: "Where Ravensmut deserves to be"
+				type: "biome"
+			}]
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			icon: "minecraft:blackstone"
+			id: "0413E595BC4FAF04"
+			tasks: [{
+				biome: "regions_unexplored:blackstone_basin"
+				id: "559780BB2125730B"
+				title: "Blackstone Basin"
+				type: "biome"
+			}]
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			icon: "alexscaves:underweed"
+			id: "7D249C7A11AB3120"
+			tasks: [{
+				biome: "biomesoplenty:undergrowth"
+				id: "10713BCA5F977932"
+				type: "biome"
+			}]
+			x: -7.0d
+			y: -4.5d
+		}
+		{
+			icon: "biomesoplenty:flesh"
+			id: "5E155297BB7211CC"
+			tasks: [{
+				biome: "biomesoplenty:visceral_heap"
+				icon: "biomesoplenty:flesh"
+				id: "7221A4634D869DC8"
+				type: "biome"
+			}]
+			x: -8.0d
+			y: -5.0d
+		}
+		{
+			id: "6B8452AF8BE7A51A"
+			tasks: [{
+				biome: "regions_unexplored:redstone_abyss"
+				icon: "regions_unexplored:redstone_bulb"
+				id: "73AAA977F2AE8896"
+				type: "biome"
+			}]
+			x: -7.0d
+			y: -0.5d
+		}
+		{
+			icon: "regions_unexplored:mycotoxic_moss"
+			id: "2CF6983729659EEC"
+			tasks: [{
+				biome: "regions_unexplored:mycotoxic_undergrowth"
+				id: "435C0915D6C96B2A"
+				type: "biome"
+			}]
+			x: -6.0d
+			y: -4.0d
+		}
+		{
+			icon: "minecraft:wither_rose"
+			id: "6FBAD24214104210"
+			tasks: [{
+				biome: "incendium:withered_forest"
+				id: "559A87E6220D5B9E"
+				type: "biome"
+			}]
+			x: -8.0d
+			y: -1.0d
+		}
+		{
+			id: "047665FBEA916582"
+			tasks: [{
+				biome: "incendium:quartz_flats"
+				icon: "minecraft:quartz"
+				id: "35CBB34C29A8D41B"
+				type: "biome"
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			id: "1F895488403965F1"
+			tasks: [{
+				icon: "handcrafted:pillager_trophy"
+				id: "044DE8A6EE4AF94F"
+				structure: "incendium:sanctum"
+				title: "Heretics!!!"
+				type: "structure"
+			}]
+			x: -6.0d
+			y: -5.0d
+		}
+		{
+			icon: "chipped:ancient_gold_block"
+			id: "59AE96B89EFDA453"
+			tasks: [{
+				icon: "minecraft:chiseled_polished_blackstone"
+				id: "375FED8299C1CC30"
+				structure: "#minecraft:bastion_remnant"
+				title: "Visit a Bastion Remnant"
+				type: "structure"
+			}]
+			title: "From a time before The Great Golden Wars!"
+			x: -8.0d
+			y: -2.0d
+		}
+		{
+			icon: "alexscaves:hazmat_warning_block"
+			id: "0A224686AAC43960"
+			tasks: [{
+				biome: "incendium:toxic_heap"
+				id: "30C40F917BF0D058"
+				title: "Visit the Toxic Heap"
+				type: "biome"
+			}]
+			title: "Should I be coughing blood?"
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			icon: "regions_unexplored:glister_bulb"
+			id: "6C22F27A3EEE015D"
+			tasks: [{
+				biome: "regions_unexplored:glistering_meadow"
+				id: "3B043B9D44791CFD"
+				type: "biome"
+			}]
+			x: -8.0d
+			y: -4.0d
+		}
+		{
+			icon: "minecraft:crimson_nylium"
+			id: "600E86FCAA5C7B33"
+			tasks: [{
+				biome: "minecraft:crimson_forest"
+				id: "666D0AC4F25ECCFE"
+				type: "biome"
+			}]
+			x: -9.5d
+			y: -3.0d
+		}
+		{
+			icon: "minecraft:warped_nylium"
+			id: "0F0822D926DC6264"
+			tasks: [{
+				biome: "minecraft:warped_forest"
+				id: "0C87F66D67397401"
+				type: "biome"
+			}]
+			x: -5.5d
+			y: -3.0d
+		}
+		{
+			icon: "minecraft:basalt"
+			id: "049363FADC9F6CEB"
+			tasks: [{
+				biome: "minecraft:basalt_deltas"
+				id: "7079E51B53E8799F"
+				type: "biome"
+			}]
+			x: -9.0d
+			y: -4.0d
+		}
+		{
+			icon: "minecraft:soul_sand"
+			id: "543E7220E9E39E64"
+			tasks: [{
+				biome: "minecraft:soul_sand_valley"
+				id: "5B0112FFD127EC21"
+				type: "biome"
+			}]
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			icon: "supplementaries:ash"
+			id: "45961885F50B6464"
+			tasks: [{
+				biome: "incendium:ash_barrens"
+				id: "58714D5DBA055B0A"
+				type: "biome"
+			}]
+			x: -7.0d
+			y: -5.5d
+		}
+		{
+			dependencies: [
+				"7D249C7A11AB3120"
+				"5E155297BB7211CC"
+				"45961885F50B6464"
+				"047665FBEA916582"
+				"6FBAD24214104210"
+				"049363FADC9F6CEB"
+				"600E86FCAA5C7B33"
+				"543E7220E9E39E64"
+				"600E86FCAA5C7B33"
+				"543E7220E9E39E64"
+				"6C22F27A3EEE015D"
+				"2CF6983729659EEC"
+				"6B8452AF8BE7A51A"
+				"59AE96B89EFDA453"
+				"3D1D1E6C0B40B474"
+				"3B395339B8F25468"
+				"0A224686AAC43960"
+				"1F895488403965F1"
+				"0F0822D926DC6264"
+				"0413E595BC4FAF04"
+				"65DD26B426D2A98D"
+			]
+			description: ["For your sublime work in jotting out the wastes of the Nether. The Tagavor grants you another gift upon you. Some of the Empires finest Netherite!! Cherise it well for you will need it!!"]
+			icon: "minecraft:netherite_block"
+			id: "38DD9186F1B9480D"
+			rewards: [
+				{
+					id: "5EBFC8F6176CBD3B"
+					item: "minecraft:netherite_block"
+					type: "item"
+				}
+				{
+					id: "1F424EB90B12027C"
+					type: "xp"
+					xp: 450
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				id: "0BE4612949782942"
+				type: "checkmark"
+			}]
+			title: "The Tagavors Gift"
+			x: -7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["32AB0ED18A767D96"]
+			icon: "minecraft:blaze_powder"
+			id: "7C5EC7DD16E38C4A"
+			rewards: [
+				{
+					id: "3755141C55CFE1DC"
+					type: "xp"
+					xp: 200
+				}
+				{
+					count: 8
+					id: "533B1A327C2EB554"
+					item: "minecraft:blaze_rod"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "221FCF2BFB486863"
+					table_id: 487623848494439020L
+					type: "random"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				entity: "minecraft:blaze"
+				id: "7BB1ACFBBCBAD25F"
+				type: "kill"
+				value: 20L
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["32AB0ED18A767D96"]
+			description: ["{atm9.quest.chapter1.desc.trims}"]
+			id: "65CBD9717B12D701"
+			rewards: [
+				{
+					id: "236424D9ECC99DDE"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5AC0DA1488C98EF2"
+					table_id: 487623848494439020L
+					type: "loot"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "66A653564E7EBDC7"
+				item: "minecraft:netherite_upgrade_smithing_template"
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter1.trims}"
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["687DE001BA5057DC"]
+			description: ["{atm9.quest.chapter1.desc.netherite}"]
+			id: "2C6A391304CF2306"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "08457363D2609007"
+				type: "loot"
+			}]
+			shape: "circle"
+			tasks: [
+				{
+					id: "59F7E2FFF9D5BC5A"
+					item: "minecraft:ancient_debris"
+					type: "item"
+				}
+				{
+					id: "50B3686F42053A2D"
+					item: "minecraft:netherite_ingot"
+					type: "item"
+				}
+			]
+			title: "{atm9.quest.chapter1.netherite}"
+			x: -2.0d
+			y: -4.0d
+		}
+	]
+	title: "&4Plagatèa Infernum!!&4"
+}

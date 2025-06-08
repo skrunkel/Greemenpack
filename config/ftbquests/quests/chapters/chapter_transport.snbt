@@ -1,0 +1,293 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter_transport"
+	group: "61244138AA76D7D8"
+	icon: "railways:red_conductor_cap"
+	id: "2AB51EED6E71C05F"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependency_requirement: "one_started"
+			description: ["{quest.train.train_tracks.description_1}"]
+			id: "358DC7C7A1EF9AD4"
+			progression_mode: "flexible"
+			rewards: [{
+				count: 31
+				id: "2DF225187FB6CCB0"
+				item: "create:track"
+				type: "item"
+			}]
+			subtitle: "{quest.train.train_tracks.subtitle}"
+			tasks: [{
+				id: "64DF824BB2573B75"
+				item: "create:track"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4B96A3DF7F541D30"]
+			dependency_requirement: "one_started"
+			description: ["{quest.train.train_station.description_1}"]
+			id: "2A3F96302E68B66A"
+			progression_mode: "flexible"
+			rewards: [{
+				id: "2AB92861781F6A53"
+				type: "xp"
+				xp: 500
+			}]
+			subtitle: "{quest.train.train_station.subtitle}"
+			tasks: [{
+				id: "1829D91C33FF85AD"
+				item: "create:track_station"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"4B96A3DF7F541D30"
+				"7F2F3C8FA2AFCFE8"
+			]
+			dependency_requirement: "one_started"
+			description: ["{quest.train.train_control.description_1}"]
+			id: "6B85E8592B0BB1D8"
+			rewards: [{
+				id: "40E07D2479481929"
+				type: "xp"
+				xp: 500
+			}]
+			subtitle: "{quest.train.train_control.subtitle}"
+			tasks: [{
+				id: "405E24CB0AD1CE9A"
+				item: "create:controls"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 5.0d
+		}
+		{
+			description: ["The train casing is used in many train-related blocks. Craft one by using a sturydy sheet on a brass casing."]
+			id: "4B96A3DF7F541D30"
+			rewards: [{
+				count: 3
+				id: "2938037BF6A842A1"
+				item: "create:railway_casing"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Omg it's like Factorio"
+			tasks: [{
+				id: "5106D12D8D568A5B"
+				item: "create:railway_casing"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"2A3F96302E68B66A"
+				"6B85E8592B0BB1D8"
+				"4B96A3DF7F541D30"
+				"358DC7C7A1EF9AD4"
+			]
+			description: ["{quest.train.train_assembly.description_1}"]
+			icon: "create:schedule"
+			id: "03E2CE50F420AEAA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1BA337C256676449"
+				type: "random"
+			}]
+			size: 1.5d
+			subtitle: "{quest.train.train_assembly.subtitle}"
+			tasks: [{
+				advancement: "create:train"
+				criterion: ""
+				id: "6943BDDC37CBA408"
+				type: "advancement"
+			}]
+			title: "{quest.train.train_assembly.title}"
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			id: "31B2381488E53AE9"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "4C6833D5BCA91516"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "vs_eureka:ship_helms"
+					}
+				}
+				type: "item"
+			}]
+			title: "It is time to fly!"
+			x: -8.760714285714286d
+			y: 5.275000000000006d
+		}
+		{
+			dependencies: ["31B2381488E53AE9"]
+			id: "522604774FE9D184"
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				id: "317E0B5ED8AA5A42"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "vs_eureka:balloons"
+					}
+				}
+				type: "item"
+			}]
+			title: "We make ballons, yes"
+			x: -8.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["31B2381488E53AE9"]
+			id: "2722FDD499505329"
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				id: "0CF68863D9AB6303"
+				item: "vs_eureka:floater"
+				type: "item"
+			}]
+			title: "Someone left a floater in the toilet"
+			x: -9.5d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"522604774FE9D184"
+				"2722FDD499505329"
+			]
+			dependency_requirement: "one_completed"
+			id: "56DB38217B69B2BC"
+			shape: "circle"
+			size: 1.0d
+			tasks: [{
+				id: "6E3E03DE44695E9A"
+				item: "vs_eureka:engine"
+				type: "item"
+			}]
+			title: "We make ballons, yes"
+			x: -8.79642857142857d
+			y: 8.560714285714283d
+		}
+		{
+			description: [
+				"The &n&5Crafters&r can be connected to each other to form a huge in-world crafting table."
+				""
+				"The arrows on the Crafters must eventually converge on the same Crafter to finish the recipe. You can turn the arrows by R-Clicking it with the Wrench."
+			]
+			id: "57B4B575BD00D85D"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "7248579297BE00A2"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["57B4B575BD00D85D"]
+			id: "2F6BD2E1C3B8FC10"
+			rewards: [{
+				id: "221F8783F18B5B94"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "09F7B70AAC097AD6"
+				item: "trackwork:suspension_track"
+				type: "item"
+			}]
+			x: -10.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["57B4B575BD00D85D"]
+			id: "791543CB8BA0ECB9"
+			rewards: [{
+				id: "2D92CA4A288BD093"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "663717D8BCBA7464"
+				item: "trackwork:simple_wheel_part"
+				type: "item"
+			}]
+			x: -9.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["57B4B575BD00D85D"]
+			id: "4FD4728B4F35B537"
+			rewards: [{
+				id: "114313E50BB40A07"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "340C71F15FDD2467"
+				item: "trackwork:phys_track"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["57B4B575BD00D85D"]
+			id: "5A0F0C1994061CE8"
+			rewards: [{
+				id: "3D72B818F7FD4310"
+				type: "xp"
+				xp: 250
+			}]
+			tasks: [{
+				id: "68E403FA5E085F13"
+				item: {
+					Count: 1
+					id: "trackwork:track_tool_kit"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -10.5d
+			y: 5.0d
+		}
+		{
+			id: "7F2F3C8FA2AFCFE8"
+			rewards: [{
+				id: "244520C8653BE55A"
+				type: "xp"
+				xp: 25
+			}]
+			tasks: [{
+				id: "5456E74FDE9C551E"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 6.0d
+		}
+	]
+	title: "&eFactorio but if it was good"
+}

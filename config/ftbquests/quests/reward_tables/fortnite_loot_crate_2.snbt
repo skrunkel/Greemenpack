@@ -1,0 +1,184 @@
+{
+	icon: {
+		Count: 1
+		id: "createbigcannons:autocannon_ammo_container"
+		tag: { }
+	}
+	id: "1867FAE838C5AF50"
+	loot_crate: {
+		color: 16770412
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "fortnite_loot_crate"
+	}
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{
+			count: 16
+			item: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:30_06"
+				}
+			}
+		}
+		{
+			count: 16
+			item: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:762x39"
+				}
+			}
+		}
+		{
+			count: 16
+			item: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:338"
+				}
+			}
+		}
+		{
+			count: 16
+			item: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:308"
+				}
+			}
+		}
+		{
+			count: 16
+			item: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:46x30"
+				}
+			}
+		}
+		{
+			count: 16
+			item: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:57x28"
+				}
+			}
+		}
+		{
+			count: 16
+			item: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:45acp"
+				}
+			}
+		}
+		{
+			count: 16
+			item: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:762x25"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:rpg_rocket"
+				}
+			}
+		}
+		{
+			count: 16
+			item: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:9mm"
+				}
+			}
+		}
+		{
+			count: 16
+			item: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:556x45"
+				}
+			}
+		}
+		{
+			count: 16
+			item: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:58x42"
+				}
+			}
+		}
+		{
+			count: 16
+			item: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:762x54"
+				}
+			}
+		}
+		{
+			count: 16
+			item: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:12g"
+				}
+			}
+		}
+		{
+			count: 16
+			item: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:68x51fury"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "tacz:modern_kinetic_gun"
+				tag: {
+					GunCurrentAmmoCount: 7
+					GunFireMode: "SEMI"
+					GunId: "tacz:m1911"
+					HasBulletInBarrel: 1b
+				}
+			}
+			weight: 0.25f
+		}
+	]
+	title: "Fortnite Loot Crate"
+}

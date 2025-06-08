@@ -1,0 +1,13 @@
+name = "ChassisCore"
+filename = "chassis_core-1.20.1-2.6.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "89198ee13cb58a45dd9a52271d6ebf35ef7c4e58"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6527366
+project-id = 908954

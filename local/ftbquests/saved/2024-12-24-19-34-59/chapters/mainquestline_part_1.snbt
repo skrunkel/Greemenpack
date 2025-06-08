@@ -1,0 +1,1192 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mainquestline_part_1"
+	group: ""
+	icon: "minecraft:crafting_table"
+	id: "732824E03978A934"
+	images: [{
+		height: 0.01d
+		image: "ftbquests:textures/shapes/square/outline.png"
+		rotation: 0.0d
+		width: 15.4d
+		x: 6.5d
+		y: -1.5d
+	}]
+	order_index: 1
+	progression_mode: "flexible"
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&n&lGet wood but what is Wood!?&r&r"
+				""
+				"Wood is a structural tissue/material found as xylem in the stems and roots of trees and other woody plants. It is an organic material – a natural composite of cellulosic fibers that are strong in tension and embedded in a matrix of lignin that resists compression. Wood is sometimes defined as only the secondary xylem in the stems of trees,[1] or more broadly to include the same type of tissue elsewhere, such as in the roots of trees or shrubs. In a living tree, it performs a mechanical-support function, enabling woody plants to grow large or to stand up by themselves. It also conveys water and nutrients among the leaves, other growing tissues, and the roots. Wood may also refer to other plant materials with comparable properties, and to material engineered from wood, woodchips, or fibers."
+				""
+				"Wood has been used for thousands of years for fuel, as a construction material, for making tools and weapons, furniture and paper. More recently it emerged as a feedstock for the production of purified cellulose and its derivatives, such as cellophane and cellulose acetate."
+				""
+				"As of 2020, the growing stock of forests worldwide was about 557 billion cubic meters.[2] As an abundant, carbon-neutral[3] renewable resource, woody materials have been of intense interest as a source of renewable energy. In 2008, approximately 3.97 billion cubic meters of wood were harvested.[2] Dominant uses were for furniture and building construction.[4]"
+			]
+			id: "5CF320E9C4C1B1E1"
+			rewards: [
+				{
+					count: 8
+					id: "64451D3624C2085E"
+					item: "minecraft:torch"
+					type: "item"
+				}
+				{
+					id: "1902B7E64709494A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					count: 8
+					id: "5C8109AE8C1BAD29"
+					item: "minecraft:cooked_beef"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Get Some Wood"
+			tasks: [{
+				icon: "minecraft:oak_log"
+				id: "285A53DB9D54595D"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "Gather Wood"
+				type: "item"
+			}]
+			title: "Get some wood"
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5CF320E9C4C1B1E1"]
+			description: ["{atm9.quest.chapter1.desc.storage}"]
+			hide_dependency_lines: true
+			id: "0752E680F9DE4039"
+			rewards: [{
+				id: "7D6D1B0CB60B90B8"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				icon: "minecraft:chest"
+				id: "1AFA45D4934626C6"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:chests/wooden"
+					}
+				}
+				title: "Chest"
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter1.storage}"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5CF320E9C4C1B1E1"]
+			description: [""]
+			hide_dependency_lines: true
+			id: "681E89DB12A21A09"
+			rewards: [{
+				id: "688CFEFDE7244290"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				icon: "minecraft:apple"
+				id: "3D4DC59D56174F6D"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:crops"
+					}
+				}
+				title: "Food"
+				type: "item"
+			}]
+			title: "Yummy Apple"
+			x: -3.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["0752E680F9DE4039"]
+			description: ["{atm9.quest.chapter1.desc.backpack}"]
+			id: "00BD90363CA2D893"
+			optional: true
+			rewards: [
+				{
+					id: "2A88291C5526A88C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "32F7C36CDCDE8984"
+					table_id: 487623848494439020L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7D1E29C1E57C456E"
+					table_id: 487623848494439020L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "63C2682DA7129BE1"
+				item: {
+					Count: 1
+					id: "sophisticatedbackpacks:backpack"
+					tag: {
+						inventorySlots: 27
+						upgradeSlots: 1
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter1.backpack}"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0752E680F9DE4039"]
+			description: ["{atm9.quest.chapter1.desc.chest}"]
+			id: "7A0602AC493D8356"
+			optional: true
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "7DCF0C367757E68E"
+					table_id: 487623848494439020L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "48485C13A7991D52"
+					table_id: 487623848494439020L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "73DBC5D62E7996E4"
+				item: "ironchest:wood_to_iron_chest_upgrade"
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter1.chest}"
+			x: -4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["681E89DB12A21A09"]
+			description: ["Easy Tree Farm Yum"]
+			id: "709344CCB273856F"
+			rewards: [
+				{
+					id: "0FA5EFB87AE17336"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7A19E9653246A939"
+					table_id: 487623848494439020L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				icon: "botanypots:terracotta_botany_pot"
+				id: "34E3533D501B867B"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "botanypots:all_botany_pots"
+					}
+				}
+				title: "&aBotany Pots&r"
+				type: "item"
+			}]
+			title: "I know you're gonna exploit this"
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5CF320E9C4C1B1E1"]
+			description: ["Table"]
+			id: "282CE3A088AE5CFB"
+			rewards: [{
+				id: "7A8E604C248E9E0B"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "746C44D800F4E4FB"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			title: "Make the Craftings"
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["282CE3A088AE5CFB"]
+			description: ["Making the pickaxes Wooden"]
+			id: "7975C7145572C438"
+			rewards: [
+				{
+					id: "1551FD138B9B3813"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "12ED9220960CF944"
+					table_id: 8014980358295178029L
+					type: "loot"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "5CA7453233441165"
+				item: {
+					Count: 1
+					id: "minecraft:wooden_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			title: "Making the Pickaxes Wooden Thing"
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7975C7145572C438"]
+			icon: "minecraft:furnace"
+			id: "7D38BC3DB3406F51"
+			rewards: [{
+				id: "36A9FD7873103E63"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [
+				{
+					count: 16L
+					icon: "minecraft:cobblestone"
+					id: "10DFD79E9CE6DB61"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:cobblestone"
+						}
+					}
+					title: "Any Cobblestone"
+					type: "item"
+				}
+				{
+					id: "397B170E3C7FA203"
+					item: "minecraft:furnace"
+					match_nbt: false
+					type: "item"
+				}
+			]
+			title: "Heat Hot, ow Furnace"
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7D38BC3DB3406F51"]
+			description: ["Coal"]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:block/furnace_front_on"
+				}
+			}
+			id: "18F88DE24EFBA7A7"
+			rewards: [{
+				id: "19BC35D05B4369D3"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "21426DE64F116241"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			title: "Da Coal"
+			x: 1.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7D38BC3DB3406F51"]
+			description: ["Metl"]
+			id: "051E0C85E7B71CE0"
+			rewards: [
+				{
+					id: "3A97D5B2AE8AEF50"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1332B608BF4AE9FB"
+					table_id: 487623848494439020L
+					type: "loot"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "Melt"
+			tasks: [
+				{
+					id: "38BA6B3FF1EC9185"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "2E116AC5F25650BE"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+			]
+			title: "Metl"
+			x: 3.4910714285714235d
+			y: 2.5153571428571446d
+		}
+		{
+			dependencies: ["051E0C85E7B71CE0"]
+			description: ["{atm9.quest.chapter1.desc.iron_pick}"]
+			id: "698A959C9E449592"
+			rewards: [
+				{
+					id: "77D1205EEAD47367"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "40D1A85DBA8BF5DC"
+					table_id: 487623848494439020L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "03005DEF00AB48F3"
+				item: {
+					Count: 1
+					id: "minecraft:iron_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter1.iron_pick}"
+			x: 5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["698A959C9E449592"]
+			description: ["{atm9.quest.chapter1.desc.silent_gear}"]
+			id: "680F2CB6905F08AD"
+			rewards: [{
+				id: "2C52336368ACAE77"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "gear"
+			size: 1.25d
+			tasks: [{
+				id: "629F4296DDD32604"
+				item: {
+					Count: 1
+					id: "silentgear:pickaxe"
+					tag: {
+						Damage: 0
+						SGear_Data: {
+							Construction: {
+								Parts: [
+									{
+										ID: "silentgear:pickaxe_head"
+										Item: {
+											Count: 1b
+											id: "silentgear:pickaxe_head"
+											tag: {
+												Damage: 0
+												Materials: [{
+													ID: "silentgear:iron"
+												}]
+											}
+										}
+									}
+									{
+										ID: "silentgear:rod"
+										Item: {
+											Count: 1b
+											id: "silentgear:rod"
+											tag: {
+												Materials: [{
+													ID: "silentgear:wood"
+												}]
+											}
+										}
+									}
+								]
+							}
+							Properties: {
+								LockStats: 0b
+								ModVersion: "3.5.0"
+								Stats: {
+									"silentgear:attack_reach": 3.0f
+									"silentgear:attack_speed": -2.8f
+									"silentgear:charging_value": 0.7f
+									"silentgear:durability": 250.0f
+									"silentgear:enchantment_value": 14.0f
+									"silentgear:harvest_level": 2.0f
+									"silentgear:harvest_speed": 6.0f
+									"silentgear:magic_damage": 1.0f
+									"silentgear:melee_damage": 3.0f
+									"silentgear:rarity": 20.0f
+									"silentgear:repair_efficiency": 1.0f
+								}
+								Traits: [
+									{
+										Level: 3b
+										Name: "silentgear:malleable"
+									}
+									{
+										Level: 1b
+										Name: "silentgear:magnetic"
+									}
+									{
+										Level: 2b
+										Name: "silentgear:flexible"
+									}
+								]
+							}
+							Rendering: {
+								Model: 3
+								ModelKey: "pickaxe:pickaxe_head{iron},rod{wood},"
+							}
+						}
+						SGear_UUID: [I;
+							2053226576
+							840254061
+							-1565882294
+							1308565543
+						]
+					}
+				}
+				match_nbt: false
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter1.silent_gear}"
+			x: 5.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["698A959C9E449592"]
+			description: ["{atm9.quest.chapter1.desc.redstone}"]
+			hide: false
+			hide_dependency_lines: false
+			id: "4DE1158931F84F22"
+			rewards: [
+				{
+					id: "2C46B4017AC5F3AE"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "18A505CF00AA26D6"
+					table_id: 487623848494439020L
+					type: "loot"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				count: 4L
+				id: "73F9C130378195B9"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter1.redstone}"
+			x: 5.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["698A959C9E449592"]
+			description: ["{atm9.quest.chapter1.desc.diamonds}"]
+			id: "76406EFFF8CBA6B4"
+			rewards: [
+				{
+					id: "5631B3158B9642FB"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "197F4FAA40D360D9"
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "17B9A643AFD7EB39"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter1.diamonds}"
+			x: 8.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4E9229FBA875C0BE"]
+			description: ["Bloop I teleported, too lazy to make a railway connection "]
+			id: "79494986A7957292"
+			rewards: [
+				{
+					id: "1422464FC1F1F0DC"
+					item: "waystones:waystone"
+					type: "item"
+				}
+				{
+					id: "2E9E9049F5B2CACE"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4B2155D7B3E916DD"
+					table_id: 487623848494439020L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				icon: "waystones:waystone"
+				id: "7B33B2A7945A2C9D"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "waystones:waystone"
+							}
+							{
+								Count: 1b
+								id: "waystones:mossy_waystone"
+							}
+							{
+								Count: 1b
+								id: "waystones:sandy_waystone"
+							}
+						]
+					}
+				}
+				title: "Waystones"
+				type: "item"
+			}]
+			title: "Teleporting"
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["681E89DB12A21A09"]
+			description: ["C'MON ENGLAND SCORE SOME GOALS!"]
+			id: "2114BABF547A0E2A"
+			rewards: [
+				{
+					id: "6BC6FF38041DD59C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "194D8E694665B35A"
+					table_id: 487623848494439020L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "69D4EC838E7E525A"
+				item: "refurbished_furniture:toast"
+				type: "item"
+			}]
+			title: "Good Ol' English Breakfast"
+			x: -2.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4E9229FBA875C0BE"]
+			description: ["Holy crap they made Light and Lighter in Minecraft!?"]
+			id: "780DE5A24ED53F60"
+			rewards: [
+				{
+					id: "27BF0B80ADD17159"
+					item: {
+						Count: 1
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "apotheosis:apoth_chronicle"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "35C3A016DF3C9389"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2B68EE62B54DDB37"
+					table_id: 487623848494439020L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				advancement: "apotheosis:affix/root"
+				criterion: ""
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "apotheosis:items/mythic_material"
+					}
+				}
+				id: "1FBEC3A36CAAA8EA"
+				title: "Find an &dApotheosis&r Enchanted Item"
+				type: "advancement"
+			}]
+			title: "Dark and Darker but in Minecraft!?"
+			x: 0.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7975C7145572C438"]
+			description: ["I put a bunch of exploration mods in this pack so go explore. Please."]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/entity_icon/horse/horse_chestnut.png"
+				}
+			}
+			id: "4E9229FBA875C0BE"
+			rewards: [{
+				id: "7C5F26262FE9B032"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "circle"
+			size: 1.25d
+			tasks: [{
+				id: "03BCD8CA1FF84420"
+				title: "Time To Adventure!"
+				type: "checkmark"
+			}]
+			title: "Go Explore"
+			x: 1.25d
+			y: 5.0d
+		}
+		{
+			dependencies: ["681E89DB12A21A09"]
+			description: [""]
+			id: "28E60192912BEBAD"
+			rewards: [
+				{
+					id: "6502F8AB0033CC29"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7CCFFBC576CC4D3E"
+					table_id: 487623848494439020L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "6E115D3AC8BACBAF"
+				item: "minecraft:wheat_seeds"
+				type: "item"
+			}]
+			title: "The Beginning of Civilisation"
+			x: -4.0d
+			y: 5.0d
+		}
+		{
+			description: ["{atm9.quest.chapter1.desc.end}"]
+			hide: false
+			icon: "minecraft:end_portal_frame"
+			id: "61C49BC2B384FB80"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3E92832FCABBF64B"
+				type: "loot"
+			}]
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [
+				{
+					count: 10L
+					id: "2BF525CB7074AF2A"
+					item: "minecraft:ender_eye"
+					type: "item"
+				}
+				{
+					advancement: "minecraft:story/follow_ender_eye"
+					criterion: ""
+					icon: "minecraft:end_portal_frame"
+					id: "2014E320BFF51D62"
+					title: "&dFind The Stronghold&r"
+					type: "advancement"
+				}
+			]
+			title: "{atm9.quest.chapter1.end}"
+			x: 16.25d
+			y: 4.375d
+		}
+		{
+			dependencies: ["76406EFFF8CBA6B4"]
+			description: ["{atm9.quest.chapter1.desc.diamond_tools}"]
+			id: "2EC9668ED4EA47CB"
+			rewards: [
+				{
+					id: "22A34BE659C7BC6D"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7B5B59A44117F6E4"
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			tasks: [{
+				id: "3209E46C9B05C163"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "minecraft:diamond_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:diamond_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:diamond_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:diamond_shovel"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:diamond_helmet"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:diamond_chestplate"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:diamond_leggings"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:diamond_boots"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "&bDiamond&r &aItems&r"
+				type: "item"
+			}]
+			title: "{atm9.quest.chapter1.diamond_tools}"
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["2EC9668ED4EA47CB"]
+			description: ["{atm9.quest.chapter1.desc.netherite_tools}"]
+			id: "0F026D5A17CCCF51"
+			rewards: [
+				{
+					id: "58E67AE81201E3EA"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "29C76CDC2D4EE385"
+					type: "loot"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "0AFA64F1025569A2"
+				item: {
+					Count: 1b
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "minecraft:netherite_sword"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:netherite_pickaxe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:netherite_shovel"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:netherite_axe"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:netherite_helmet"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:netherite_chestplate"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:netherite_leggings"
+								tag: {
+									Damage: 0
+								}
+							}
+							{
+								Count: 1b
+								id: "minecraft:netherite_boots"
+								tag: {
+									Damage: 0
+								}
+							}
+						]
+					}
+				}
+				title: "&dNetherite&r &aItems&r"
+				type: "item"
+			}]
+			title: "&dNetherite&r &aTools and Armor&r"
+			x: 8.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4E9229FBA875C0BE"]
+			description: ["I don't think I know a single person who's ever done this"]
+			hide: false
+			hide_dependency_lines: false
+			id: "3ADCAD65EA6900BA"
+			rewards: [
+				{
+					id: "52FD7FF469E1E202"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1E0E59B27422F16E"
+					table_id: 487623848494439020L
+					type: "loot"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			tasks: [{
+				id: "1993EF1788F53759"
+				item: {
+					Count: 1
+					id: "minecraft:brush"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "I bet you'll never get this far"
+			x: 0.75d
+			y: 6.75d
+		}
+		{
+			description: ["{atm9.quest.chapter1.desc.deep_dark}"]
+			id: "6EDAB29FBD3C60A3"
+			shape: "hexagon"
+			size: 1.25d
+			tasks: [{
+				biome: "minecraft:deep_dark"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "minecraft:block/sculk_shrieker_can_summon_inner_top"
+					}
+				}
+				id: "1D48B6FC70F5C745"
+				title: "&6Visit The&r &dDeep Dark&r!"
+				type: "biome"
+			}]
+			title: "{atm9.quest.chapter1.deep_dark}"
+			x: 15.625d
+			y: 5.625d
+		}
+		{
+			dependencies: ["3ADCAD65EA6900BA"]
+			description: ["I actually don't know how you get this but if you did congrats!"]
+			id: "72989212DD45DC10"
+			rewards: [
+				{
+					id: "2071EEC4C3305EC6"
+					type: "xp"
+					xp: 250
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4A8D767945327347"
+					type: "loot"
+				}
+			]
+			shape: "heart"
+			tasks: [{
+				id: "070A5475DB3F6E6C"
+				item: "minecraft:sniffer_egg"
+				type: "item"
+			}]
+			title: "You must be dedicated"
+			x: 0.7410714285714448d
+			y: 8.15821428571429d
+		}
+		{
+			dependencies: ["681E89DB12A21A09"]
+			description: [""]
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "productivebees:textures/item/all_bees.png"
+				}
+			}
+			id: "086A3E80E57D46BE"
+			rewards: [
+				{
+					id: "48D2664438A581AB"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "206DD38C65ABF884"
+					table_id: 487623848494439020L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			size: 1.0d
+			tasks: [
+				{
+					id: "11BAA39EED7231E9"
+					item: "minecraft:beehive"
+					type: "item"
+				}
+				{
+					id: "63ACDDCDC1821E1F"
+					item: "minecraft:honey_bottle"
+					type: "item"
+				}
+			]
+			title: "BZZZZZZ"
+			x: -4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["4E9229FBA875C0BE"]
+			description: ["{atm9.quest.chapter1.desc.loot}"]
+			icon: "artifacts:crystal_heart"
+			id: "5B95C5B5B3A9CB2E"
+			rewards: [
+				{
+					id: "29ECF9DB6CC61534"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2AC7559ACB3E63E0"
+					table_id: 487623848494439020L
+					type: "loot"
+				}
+			]
+			shape: "diamond"
+			tasks: [{
+				id: "7C6D2C25C8B2C375"
+				title: "Did you find artifacts?"
+				type: "checkmark"
+			}]
+			title: "Artifacts"
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["76406EFFF8CBA6B4"]
+			description: [
+				"{atm9.quest.chapter1.desc.twilight}"
+				""
+			]
+			id: "23CA641A3D3BE22F"
+			min_width: 300
+			rewards: [{
+				id: "61AB892E58B3E5AE"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "diamond"
+			tasks: [{
+				dimension: "twilightforest:twilight_forest"
+				id: "082FD4018EA92767"
+				title: "The &dTwilight Forest&r"
+				type: "dimension"
+			}]
+			title: "{atm9.quest.chapter1.twilight}"
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["051E0C85E7B71CE0"]
+			id: "2BFF49ED8887AB92"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3F2721353535D43B"
+					table_id: 487623848494439020L
+					type: "loot"
+				}
+				{
+					id: "3E2AD171FE8719A4"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "1E07ECECE28278C0"
+				item: "ironfurnaces:iron_furnace"
+				type: "item"
+			}]
+			x: 3.4910714285714235d
+			y: 4.015357142857145d
+		}
+		{
+			dependencies: ["2BFF49ED8887AB92"]
+			id: "34AD97110DD5F3A2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "47ED88C33A3D26A0"
+					table_id: 487623848494439020L
+					type: "loot"
+				}
+				{
+					id: "72E0527AFC01A367"
+					type: "xp"
+					xp: 10
+				}
+			]
+			tasks: [{
+				id: "28ED0B517575ABBF"
+				item: "ironfurnaces:upgrade_gold"
+				type: "item"
+			}]
+			x: 3.4910714285714235d
+			y: 5.515357142857145d
+		}
+	]
+	title: "&f&n&lHow to play Minecraft"
+}

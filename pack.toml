@@ -1,0 +1,11 @@
+name = "Modified Greemen 0.2"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "2a21ef44342846bdb085977e0f2784509f7d5023afdb6694ba8cad31d3ea727b"
+
+[versions]
+forge = "47.3.7"
+minecraft = "1.20.1"

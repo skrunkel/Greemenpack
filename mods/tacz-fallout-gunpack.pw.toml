@@ -1,0 +1,13 @@
+name = "[TACZ] Fallout Gunpack"
+filename = "tacz_fallout-0.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7bace04dd1f04a803af2e65a11bf7ee7642b0c7b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6066208
+project-id = 1174200

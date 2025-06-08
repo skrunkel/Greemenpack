@@ -1,0 +1,54 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "lionleon9",
+      "uniqueId": "4797ffd9-ff45-40fa-bbff-706b9a350df5"
+    },
+    "time": 1749419354207,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/P9aJF0yo05"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "lionleon9",
+      "uniqueId": "4797ffd9-ff45-40fa-bbff-706b9a350df5"
+    },
+    "time": 1749419185171,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/FEktSEiguS"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "lionleon9",
+      "uniqueId": "4797ffd9-ff45-40fa-bbff-706b9a350df5"
+    },
+    "time": 1749419104427,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/e4zRb6WJDj"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "lionleon9",
+      "uniqueId": "4797ffd9-ff45-40fa-bbff-706b9a350df5"
+    },
+    "time": 1749418955250,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/0tdaR4FM5l"
+    }
+  }
+]

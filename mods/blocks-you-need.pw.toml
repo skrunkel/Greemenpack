@@ -1,0 +1,13 @@
+name = "Blocks You Need (BYN) - Industrial, Steampunk, Laboratory, Space & more!"
+filename = "blocksyouneed_luna-1.9.1-forge-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4e10efbb96fa37affc6b0f1bfc1f201d6a11f20d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6605417
+project-id = 925718

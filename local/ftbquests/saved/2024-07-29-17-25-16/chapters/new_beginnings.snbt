@@ -1,0 +1,35 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "new_beginnings"
+	group: ""
+	id: "4D9695BAACE5D5B7"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		description: ["Congratulations on doing the most basic thing you could do in Minecraft"]
+		id: "4DDB225BC882EB57"
+		rewards: [
+			{
+				id: "3F0CFA9FF2A888AF"
+				type: "xp_levels"
+				xp_levels: 1
+			}
+			{
+				id: "028141AE3FDC033F"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}
+		]
+		tasks: [{
+			count: 4L
+			id: "773FED18EFC774A5"
+			item: { Count: 4, id: "minecraft:oak_log" }
+			type: "item"
+		}]
+		title: "Mine a tree"
+		x: -17.5d
+		y: -0.5d
+	}]
+	title: "New Beginnings"
+}

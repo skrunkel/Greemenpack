@@ -1,0 +1,289 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "carpets_nuclear_arsenal"
+	group: "59E49D6D5616AE5E"
+	icon: "alexscaves:nuclear_bomb"
+	id: "4218B638DB2FCC9C"
+	images: [
+		{
+			height: 1.0d
+			image: "simplyswords:item/empowered_remnant_e"
+			rotation: 0.0d
+			width: 0.016666666666666666d
+			x: 2.2857142857142847d
+			y: 11.96428571428568d
+		}
+		{
+			height: 1.0d
+			image: "simplyswords:item/tempest_anim_01"
+			rotation: 0.0d
+			width: 0.016666666666666666d
+			x: 2.5d
+			y: 11.0d
+		}
+		{
+			height: 1.0d
+			image: "simplyswords:item/tempest_anim_01"
+			rotation: 0.0d
+			width: 0.016666666666666666d
+			x: 2.5d
+			y: 7.0d
+		}
+		{
+			height: 1.0d
+			image: "simplyswords:item/tempest_anim_01_e"
+			rotation: 0.0d
+			width: 0.016666666666666666d
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			height: 5.0d
+			image: "alexsmobs:textures/entity/sunbird_shine.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: -0.6785714285714377d
+			y: 13.178571428571395d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "2F65CDA12194D0BE"
+			size: 2.0d
+			tasks: [{
+				id: "2F2F6A81EC99625A"
+				item: "minecraft:tnt"
+				type: "item"
+			}]
+			x: -0.7857142857142847d
+			y: -0.9285714285714306d
+		}
+		{
+			dependencies: ["2F65CDA12194D0BE"]
+			id: "4808121423A9C171"
+			size: 1.5d
+			tasks: [{
+				id: "4E2B56461C5BF63A"
+				item: "ballistix:condensive"
+				type: "item"
+			}]
+			x: -0.75d
+			y: 0.75d
+		}
+		{
+			dependencies: ["4808121423A9C171"]
+			id: "2F30ACA4FA6069F2"
+			size: 1.5d
+			tasks: [{
+				id: "5453347DD112A0B2"
+				item: "ballistix:attractive"
+				type: "item"
+			}]
+			x: -2.25d
+			y: 0.75d
+		}
+		{
+			dependencies: ["4808121423A9C171"]
+			id: "3705B528D3B5ACFA"
+			size: 1.5d
+			tasks: [{
+				id: "27A6D09A5AF30DE1"
+				item: "ballistix:repulsive"
+				type: "item"
+			}]
+			x: -0.75d
+			y: 2.25d
+		}
+		{
+			dependencies: ["3705B528D3B5ACFA"]
+			id: "27A85CB8042D7DA8"
+			size: 1.5d
+			tasks: [{
+				id: "7789DB41847883E1"
+				item: "ballistix:incendiary"
+				type: "item"
+			}]
+			x: -2.25d
+			y: 2.25d
+		}
+		{
+			dependencies: ["3705B528D3B5ACFA"]
+			id: "5315B5D431061A99"
+			size: 1.5d
+			tasks: [{
+				id: "6DEE4560419AE15B"
+				item: "ballistix:shrapnel"
+				type: "item"
+			}]
+			x: 0.75d
+			y: 2.25d
+		}
+		{
+			dependencies: ["3705B528D3B5ACFA"]
+			id: "28DE86C6128F5DB5"
+			size: 1.5d
+			tasks: [{
+				id: "29D76BA74B91231B"
+				item: "ballistix:debilitation"
+				type: "item"
+			}]
+			x: -0.75d
+			y: 3.75d
+		}
+		{
+			dependencies: ["28DE86C6128F5DB5"]
+			id: "63C83EFF347563DB"
+			size: 1.5d
+			tasks: [{
+				id: "11BC1769C3723FFA"
+				item: "ballistix:chemical"
+				type: "item"
+			}]
+			x: 0.75d
+			y: 3.75d
+		}
+		{
+			dependencies: ["2F65CDA12194D0BE"]
+			id: "4CC00E6F0CA9C50B"
+			size: 1.5d
+			tasks: [{
+				id: "3F7CBEE9A081351E"
+				item: "ballistix:emp"
+				type: "item"
+			}]
+			x: 1.1470238095238088d
+			y: -0.9107142857143025d
+		}
+		{
+			dependencies: ["4808121423A9C171"]
+			id: "25F290B066496314"
+			size: 1.5d
+			tasks: [{
+				id: "724C97935FC5490F"
+				item: "ballistix:breaching"
+				type: "item"
+			}]
+			x: 0.75d
+			y: 0.75d
+		}
+		{
+			dependencies: [
+				"63C83EFF347563DB"
+				"25F290B066496314"
+				"3705B528D3B5ACFA"
+				"27A85CB8042D7DA8"
+			]
+			id: "42DA900934051B57"
+			size: 1.5d
+			tasks: [{
+				id: "23BFD1F140A7CF0F"
+				item: "ballistix:thermobaric"
+				type: "item"
+			}]
+			x: -0.75d
+			y: 6.0d
+		}
+		{
+			dependencies: ["42DA900934051B57"]
+			id: "04F3FC22C841339B"
+			size: 1.5d
+			tasks: [{
+				id: "337290321ECE81E3"
+				item: "ballistix:nuclear"
+				type: "item"
+			}]
+			x: -0.75d
+			y: 7.5d
+		}
+		{
+			dependencies: ["04F3FC22C841339B"]
+			id: "4FA0897DF51BD6C5"
+			size: 1.5d
+			tasks: [{
+				id: "43E7485F605D3F61"
+				item: "ballistix:antimatter"
+				type: "item"
+			}]
+			x: -0.75d
+			y: 9.0d
+		}
+		{
+			dependencies: ["4FA0897DF51BD6C5"]
+			id: "211AF1F8E450265F"
+			size: 1.5d
+			tasks: [{
+				id: "320F8E5A7CFC70BE"
+				item: "ballistix:largeantimatter"
+				type: "item"
+			}]
+			x: -0.75d
+			y: 10.5d
+		}
+		{
+			dependencies: ["211AF1F8E450265F"]
+			icon_scale: 2.0d
+			id: "44F84473E9027B66"
+			size: 2.0d
+			tasks: [{
+				id: "5C59FE6968F5D46B"
+				item: "ballistix:darkmatter"
+				type: "item"
+			}]
+			x: -0.642857142857153d
+			y: 13.107142857142833d
+		}
+		{
+			dependencies: ["48397BE51B5869FD"]
+			id: "177C0AB4EACF6061"
+			size: 2.0d
+			tasks: [{
+				id: "1AAFDA9A2530D7B7"
+				item: "ballistix:missilecloserange"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["48397BE51B5869FD"]
+			id: "376E698F580798B5"
+			size: 2.0d
+			tasks: [{
+				id: "49E854346FFEE5B5"
+				item: "ballistix:missilemediumrange"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["48397BE51B5869FD"]
+			id: "0D719F3FD0D4C937"
+			size: 2.0d
+			tasks: [{
+				id: "79C0138356381DD2"
+				item: "ballistix:missilelongrange"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 9.0d
+		}
+		{
+			id: "48397BE51B5869FD"
+			shape: "circle"
+			size: 2.0d
+			tasks: [{
+				id: "2742C67050300E27"
+				item: "ballistix:missilesilo"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 7.0d
+		}
+	]
+	subtitle: ["God dammit Carpet. Fine I'll add your silly nuclear mods!"]
+	title: "Carpets Nuclear Arse"
+}

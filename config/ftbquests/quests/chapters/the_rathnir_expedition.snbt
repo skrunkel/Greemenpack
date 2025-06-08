@@ -1,0 +1,539 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_rathnir_expedition"
+	group: "6F1811463D439CE9"
+	icon: "ad_astra:earth_globe"
+	id: "359E48E95C799011"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Our claims to Najers Badlands come from the time of The Saphire Commonwealth, when we had a Hegemony over our fellow commonwealth states!"]
+			id: "60543D4B02C595E0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7D8F6301FF542AAD"
+				table_id: 487623848494439020L
+				type: "loot"
+			}]
+			tasks: [{
+				biome: "minecraft:badlands"
+				icon: "minecraft:dead_bush"
+				id: "3C736B6BC4DCCEF2"
+				title: "Visit the Badlands"
+				type: "biome"
+			}]
+			title: "The Badlands of Najer"
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			id: "5A17647EA06E6DC3"
+			size: 1.0d
+			tasks: [{
+				biome: "minecraft:plains"
+				icon: "minecraft:grass"
+				id: "0E8D6AF8DA15B00A"
+				title: "Plains"
+				type: "biome"
+			}]
+			x: -8.5d
+			y: 0.5d
+		}
+		{
+			description: ["Our invasion forces of the &9Blue fleet&r must have a place to dock to further our colonisation of the known world!"]
+			id: "7936B6B33FA5F98E"
+			tasks: [{
+				biome: "minecraft:beach"
+				icon: "minecraft:sand"
+				id: "29753391FDF8461E"
+				title: "Visit a Beach"
+				type: "biome"
+			}]
+			title: "A place to dock our Fleets!"
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			description: ["The Deserts of Nieden are rightfully our lands, that must be returned!"]
+			id: "7BDE7B64EC535D03"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "443465A324387687"
+				table_id: 487623848494439020L
+				type: "random"
+			}]
+			tasks: [{
+				biome: "minecraft:desert"
+				icon: "minecraft:suspicious_sand"
+				id: "3954802B5B21F93E"
+				title: "Visit a Desert"
+				type: "biome"
+			}]
+			title: "The Deserts of Nieden"
+			x: -6.5d
+			y: 0.5d
+		}
+		{
+			description: ["With the collapse of our once glorious empire under the Dual Monarchs we must reclaim our mother land in the North of Plagos!"]
+			id: "1C7D52F9528B7080"
+			tasks: [{
+				biome: "minecraft:birch_forest"
+				icon: "minecraft:birch_log"
+				id: "1855581F8BCC2715"
+				title: "Visit a Birch Forest"
+				type: "biome"
+			}]
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			description: ["Plagatea requires Pandas for their propoganda campaign. Collect our prized possesions and return to the motherland!"]
+			id: "0283FA799801FE5F"
+			rewards: [{
+				id: "1C73365F0F1D3913"
+				item: "minecraft:panda_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				biome: "minecraft:bamboo_jungle"
+				icon: "minecraft:bamboo"
+				id: "44E134938E348B97"
+				title: "Visit a Bamboo Jungle"
+				type: "biome"
+			}]
+			title: "Plagapanda Propaganda"
+			x: -7.5d
+			y: -2.0d
+		}
+		{
+			description: ["The reintegration of the Genshin lands is vital for the revitalisation of Plagatea!"]
+			id: "0E52B662F901159C"
+			tasks: [{
+				biome: "minecraft:forest"
+				icon: "minecraft:oak_leaves"
+				id: "4499EBE0431CFA02"
+				title: "Visit of Forest"
+				type: "biome"
+			}]
+			title: "Heart lands of Gensha"
+			x: -8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"7936B6B33FA5F98E"
+				"0E52B662F901159C"
+				"60543D4B02C595E0"
+				"0283FA799801FE5F"
+				"5A17647EA06E6DC3"
+				"1C7D52F9528B7080"
+				"7BDE7B64EC535D03"
+				"79C672C3E2A920B6"
+				"325D737B459DB26A"
+			]
+			icon: "minecraft:diamond_block"
+			id: "4EBE6C476D21C5B5"
+			rewards: [{
+				id: "3F75BC8F50786CBC"
+				item: "minecraft:diamond_block"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "2F37822F339CB390"
+				type: "checkmark"
+			}]
+			title: "Reunification of Plagatea"
+			x: -7.5d
+			y: -0.5d
+		}
+		{
+			description: ["The Baranovians took our Frozen oceans during the Skittles wars, it is time to reclaim them!"]
+			id: "325D737B459DB26A"
+			tasks: [{
+				biome: "minecraft:frozen_ocean"
+				icon: "minecraft:ice"
+				id: "79C672C3E2A920B6"
+				title: "Visit a Frozen Ocean"
+				type: "biome"
+			}]
+			title: "Reclaim the Shattered Seas"
+			x: -9.0d
+			y: -0.5d
+		}
+		{
+			id: "5A68362210D59783"
+			rewards: [{
+				id: "438436DCE3E0113F"
+				item: {
+					Count: 1
+					id: "alexsmobs:roadrunner_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				title: "Messenger of Plagos"
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.5d
+			subtitle: "Your fearlesness of travelling the many dangers of Plagos has earnt you respect of the Tagavor himself. Awarding you boots that shall help you stride even further distances past Plagos and across Rathnir"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:roadrunner_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "7AC88AEF5FFE2266"
+				stat: "minecraft:walk_one_cm"
+				type: "stat"
+				value: 1000000
+			}]
+			title: "Messenger of Plagos"
+			x: -7.5d
+			y: 5.25d
+		}
+		{
+			icon: "minecraft:mud"
+			id: "611760C2DF190D8D"
+			tasks: [{
+				biome: "biomesoplenty:bog"
+				id: "69F016603FD959C6"
+				type: "biome"
+			}]
+			title: "Bog"
+			x: -9.5d
+			y: -1.5d
+		}
+		{
+			id: "05FBCD9A2EE95B7E"
+			tasks: [{
+				biome: "biomesoplenty:clover_patch"
+				id: "0673B1C1A8E816E1"
+				type: "biome"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			id: "1C41D59A90466EB8"
+			tasks: [{
+				biome: "biomesoplenty:cold_desert"
+				id: "6BAF9AA6433006B1"
+				type: "biome"
+			}]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			id: "1248633D2FC8D312"
+			tasks: [{
+				biome: "biomesoplenty:cold_desert"
+				id: "52886547E735041E"
+				type: "biome"
+			}]
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			id: "2EBDE088800DD874"
+			tasks: [{
+				biome: "biomesoplenty:cold_desert"
+				id: "06A2504294FEB246"
+				type: "biome"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			id: "56BAA55B95B873C9"
+			tasks: [{
+				biome: "biomesoplenty:cold_desert"
+				id: "063F1D4F50994D29"
+				type: "biome"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			id: "60FC5F6DCA7F2490"
+			tasks: [{
+				biome: "biomesoplenty:cold_desert"
+				id: "46875E56679D7E94"
+				type: "biome"
+			}]
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			id: "1F484BE05EFEF731"
+			tasks: [{
+				biome: "biomesoplenty:cold_desert"
+				id: "3B8F3244F6092461"
+				type: "biome"
+			}]
+			x: -5.0d
+			y: -0.5d
+		}
+		{
+			id: "1C45FBB6A4629ECC"
+			tasks: [{
+				biome: "biomesoplenty:cold_desert"
+				id: "6F25C21A00B76642"
+				type: "biome"
+			}]
+			x: -5.5d
+			y: -1.5d
+		}
+		{
+			id: "01359625E866DA79"
+			tasks: [{
+				biome: "biomesoplenty:cold_desert"
+				id: "69B59912A5EA2142"
+				type: "biome"
+			}]
+			x: -6.5d
+			y: -2.5d
+		}
+		{
+			id: "735135A74F464238"
+			tasks: [{
+				biome: "biomesoplenty:cold_desert"
+				id: "18A912CE827DD36F"
+				type: "biome"
+			}]
+			x: -7.5d
+			y: -3.0d
+		}
+		{
+			id: "125E852346028964"
+			tasks: [{
+				biome: "biomesoplenty:cold_desert"
+				id: "403C736D85539F0F"
+				type: "biome"
+			}]
+			x: -8.5d
+			y: -2.5d
+		}
+		{
+			icon: "minecraft:gravel"
+			id: "63950ED37BECE0CB"
+			tasks: [{
+				biome: "biomesoplenty:cold_desert"
+				id: "18FFBBBD209D619A"
+				type: "biome"
+			}]
+			x: -10.0d
+			y: -0.5d
+		}
+		{
+			icon: "minecraft:stone"
+			id: "5697A11643D9E3C2"
+			tasks: [{
+				biome: "biomesoplenty:crag"
+				id: "374A99C5FD38FC95"
+				type: "biome"
+			}]
+			x: -9.5d
+			y: 0.5d
+		}
+		{
+			icon: "regions_unexplored:blackwood_sapling"
+			id: "46D9EC5451D94C13"
+			tasks: [{
+				biome: "biomesoplenty:coniferous_forest"
+				id: "769FFAB5F874A3ED"
+				type: "biome"
+			}]
+			x: -8.5d
+			y: 1.5d
+		}
+		{
+			icon: "biomesoplenty:dead_sapling"
+			id: "108470481D92CD40"
+			tasks: [{
+				biome: "biomesoplenty:dead_forest"
+				id: "106562EC695E299B"
+				type: "biome"
+			}]
+			x: -7.5d
+			y: 2.0d
+		}
+		{
+			id: "2D62993B7185C974"
+			tasks: [{
+				biome: "biomesoplenty:cold_desert"
+				id: "4678D5529702FD43"
+				type: "biome"
+			}]
+			x: -6.5d
+			y: 1.5d
+		}
+		{
+			id: "6ADA4D0B10105696"
+			tasks: [{
+				biome: "biomesoplenty:cold_desert"
+				id: "3CCCCBDC273C4F55"
+				type: "biome"
+			}]
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			id: "6076C6BA93445ABB"
+			tasks: [{
+				biome: "biomesoplenty:cold_desert"
+				id: "005704C2CE29B205"
+				type: "biome"
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			id: "4DFF91CED42A420F"
+			tasks: [{
+				biome: "biomesoplenty:cold_desert"
+				id: "623ACB558438271C"
+				type: "biome"
+			}]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			id: "6802A2CEA5D696AF"
+			tasks: [{
+				biome: "biomesoplenty:cold_desert"
+				id: "137CD34EE82D3E9B"
+				type: "biome"
+			}]
+			x: -5.5d
+			y: -2.5d
+		}
+		{
+			id: "007296A5F8649CA9"
+			tasks: [{
+				biome: "biomesoplenty:cold_desert"
+				id: "27DBA2714B06E69C"
+				type: "biome"
+			}]
+			x: -6.5d
+			y: -3.5d
+		}
+		{
+			id: "2536E406EDEBBFB0"
+			tasks: [{
+				biome: "biomesoplenty:cold_desert"
+				id: "4D455AF86D40DB0E"
+				type: "biome"
+			}]
+			x: -8.5d
+			y: -3.5d
+		}
+		{
+			id: "332667C54863E542"
+			tasks: [{
+				biome: "biomesoplenty:cold_desert"
+				id: "27D508D53C194B20"
+				type: "biome"
+			}]
+			x: -9.5d
+			y: -2.5d
+		}
+		{
+			id: "3CF85EDF707862CA"
+			tasks: [{
+				biome: "biomesoplenty:cold_desert"
+				id: "141620AEBC1B85F2"
+				type: "biome"
+			}]
+			x: -10.5d
+			y: -1.5d
+		}
+		{
+			id: "7919E04438BAF26D"
+			tasks: [{
+				biome: "biomesoplenty:cold_desert"
+				id: "35AD94D492A3C171"
+				type: "biome"
+			}]
+			x: -10.5d
+			y: 0.5d
+		}
+		{
+			id: "3207B5EC5AC44BF6"
+			tasks: [{
+				biome: "biomesoplenty:cold_desert"
+				id: "2CBCE06C6AA19B1B"
+				type: "biome"
+			}]
+			x: -9.5d
+			y: 1.5d
+		}
+		{
+			id: "68A72BB3DBADE086"
+			tasks: [{
+				biome: "biomesoplenty:cold_desert"
+				id: "098FC822DE5F7CB8"
+				type: "biome"
+			}]
+			x: -8.5d
+			y: 2.5d
+		}
+		{
+			id: "62BF6FFD1A5C24F8"
+			tasks: [{
+				biome: "biomesoplenty:cold_desert"
+				id: "5C9FCFD348E41DF2"
+				type: "biome"
+			}]
+			x: -6.5d
+			y: 2.5d
+		}
+		{
+			id: "4AB2E204529B9715"
+			tasks: [{
+				biome: "biomesoplenty:cold_desert"
+				id: "62372C64C2B63165"
+				type: "biome"
+			}]
+			x: -7.5d
+			y: 3.0d
+		}
+		{
+			id: "354E95FF91769684"
+			tasks: [{
+				biome: "biomesoplenty:cold_desert"
+				id: "1B68C38CAF522F79"
+				type: "biome"
+			}]
+			x: -7.5d
+			y: -4.0d
+		}
+		{
+			id: "3292B6FE06E3824F"
+			tasks: [{
+				biome: "biomesoplenty:cold_desert"
+				id: "1BFB9DD766D6B34B"
+				type: "biome"
+			}]
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			id: "21E701842E95C761"
+			tasks: [{
+				biome: "biomesoplenty:cold_desert"
+				id: "760C94C1BE619CF3"
+				type: "biome"
+			}]
+			x: -11.0d
+			y: -0.5d
+		}
+	]
+	subtitle: ["Our once, great empire that stretched from the shining lands of Alamayn and the original citadel of the Silver Coalition. To the sands of Nieden. We now live in ruin, but you once more can rebuild our once great empire!!"]
+	title: "&bPlagatèa Domini!!&b"
+}

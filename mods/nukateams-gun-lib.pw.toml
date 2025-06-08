@@ -1,0 +1,13 @@
+name = "NukaTeam's Gun Lib"
+filename = "ntgl-1.20.1-1.9.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2c478f8950a16fe2f2cce3b388f9f8be7d32d1f0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 6527377
+project-id = 998474

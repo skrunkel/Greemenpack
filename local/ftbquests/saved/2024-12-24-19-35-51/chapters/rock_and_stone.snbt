@@ -1,0 +1,65 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "rock_and_stone"
+	group: "6F1811463D439CE9"
+	icon: "minecraft:stone"
+	id: "666C33F5750F581E"
+	images: [
+		{
+			height: 1.0d
+			image: "minecraft:block/sculk_sensor_tendril_inactive"
+			rotation: 0.0d
+			width: 0.0625d
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			height: 5.0d
+			image: "minecraft:block/sculk_shrieker_side"
+			rotation: 0.0d
+			width: 5.0d
+			x: 1.982142857142854d
+			y: -0.7321428571428541d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [{
+		description: ["&lROCK AND STONE!! ROCK AND STONE!! ROCK AND STONE!! ROCK AND STONE!! ROCK AND STONE!! ROCK AND STONE!! ROCK AND STONE!! ROCK AND STONE!! ROCK AND STONE!! ROCK AND STONE!! ROCK AND STONE!! ROCK AND STONE!! ROCK AND STONE!! ROCK AND STONE!! ROCK AND STONE!! ROCK AND STONE!! ROCK AND STONE!! ROCK AND STONE!! ROCK AND STONE!! ROCK AND STONE!! ROCK AND STONE!! ROCK AND STONE!! ROCK AND STONE!! ROCK AND STONE!! ROCK AND STONE!! ROCK AND STONE!! ROCK AND STONE!! ROCK AND STONE!! ROCK AND STONE!! ROCK AND STONE!! ROCK AND STONE!! ROCK AND STONE!! ROCK AND STONE!! ROCK AND STONE!! ROCK AND STONE!! ROCK AND STONE!! ROCK AND STONE!! ROCK AND STONE!! ROCK AND STONE!! ROCK AND STONE!!&l"]
+		icon_scale: 2.0d
+		id: "609C09B38953ED23"
+		rewards: [
+			{
+				id: "3A513A8B2C65E1DD"
+				type: "xp"
+				xp: 100
+			}
+			{
+				exclude_from_claim_all: true
+				id: "18B200C6D7AF511A"
+				table_id: 6454310274938683540L
+				type: "choice"
+			}
+		]
+		shape: "hexagon"
+		size: 1.0d
+		tasks: [{
+			biome: "minecraft:deep_dark"
+			icon: {
+				Count: 1
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:block/sculk_shrieker_can_summon_inner_top"
+				}
+			}
+			id: "56DCC662290B4465"
+			title: "&6Visit The&r &dDeep Dark&r!"
+			type: "biome"
+		}]
+		title: "{atm9.quest.chapter1.deep_dark}"
+		x: 2.0d
+		y: -0.5d
+	}]
+	title: "&8Plagatèa &lROCK AND STONE!!&l&8"
+}

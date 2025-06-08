@@ -1,0 +1,203 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_rathnir_expedition"
+	group: "6F1811463D439CE9"
+	icon: "ad_astra:earth_globe"
+	id: "359E48E95C799011"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["Our claims to Najers Badlands come from the time of The Saphire Commonwealth, when we had a Hegemony over our fellow commonwealth states!"]
+			id: "60543D4B02C595E0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7D8F6301FF542AAD"
+				table_id: 487623848494439020L
+				type: "loot"
+			}]
+			tasks: [{
+				biome: "minecraft:badlands"
+				icon: "minecraft:dead_bush"
+				id: "3C736B6BC4DCCEF2"
+				title: "Visit the Badlands"
+				type: "biome"
+			}]
+			title: "The Badlands of Najer"
+			x: -7.5d
+			y: 1.0d
+		}
+		{
+			id: "5A17647EA06E6DC3"
+			size: 1.0d
+			tasks: [{
+				biome: "minecraft:plains"
+				icon: "minecraft:grass"
+				id: "0E8D6AF8DA15B00A"
+				title: "Plains"
+				type: "biome"
+			}]
+			x: -8.5d
+			y: 0.5d
+		}
+		{
+			description: ["Our invasion forces of the &9Blue fleet&r must have a place to dock to further our colonisation of the known world!"]
+			id: "7936B6B33FA5F98E"
+			tasks: [{
+				biome: "minecraft:beach"
+				icon: "minecraft:sand"
+				id: "29753391FDF8461E"
+				title: "Visit a Beach"
+				type: "biome"
+			}]
+			title: "A place to dock our Fleets!"
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			description: ["The Deserts of Nieden are rightfully our lands, that must be returned!"]
+			id: "7BDE7B64EC535D03"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "443465A324387687"
+				table_id: 487623848494439020L
+				type: "random"
+			}]
+			tasks: [{
+				biome: "minecraft:desert"
+				icon: "minecraft:suspicious_sand"
+				id: "3954802B5B21F93E"
+				title: "Visit a Desert"
+				type: "biome"
+			}]
+			title: "The Deserts of Nieden"
+			x: -6.5d
+			y: 0.5d
+		}
+		{
+			description: ["With the collapse of our once glorious empire under the Dual Monarchs we must reclaim our mother land in the North of Plagos!"]
+			id: "1C7D52F9528B7080"
+			tasks: [{
+				biome: "minecraft:birch_forest"
+				icon: "minecraft:birch_log"
+				id: "1855581F8BCC2715"
+				title: "Visit a Birch Forest"
+				type: "biome"
+			}]
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			description: ["Plagatea requires Pandas for their propoganda campaign. Collect our prized possesions and return to the motherland!"]
+			id: "0283FA799801FE5F"
+			rewards: [{
+				id: "1C73365F0F1D3913"
+				item: "minecraft:panda_spawn_egg"
+				type: "item"
+			}]
+			tasks: [{
+				biome: "minecraft:bamboo_jungle"
+				icon: "minecraft:bamboo"
+				id: "44E134938E348B97"
+				title: "Visit a Bamboo Jungle"
+				type: "biome"
+			}]
+			title: "Plagapanda Propaganda"
+			x: -7.5d
+			y: -2.0d
+		}
+		{
+			description: ["The reintegration of the Genshin lands is vital for the revitalisation of Plagatea!"]
+			id: "0E52B662F901159C"
+			tasks: [{
+				biome: "minecraft:forest"
+				icon: "minecraft:oak_leaves"
+				id: "4499EBE0431CFA02"
+				title: "Visit of Forest"
+				type: "biome"
+			}]
+			title: "Heart lands of Gensha"
+			x: -8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"7936B6B33FA5F98E"
+				"0E52B662F901159C"
+				"60543D4B02C595E0"
+				"0283FA799801FE5F"
+				"5A17647EA06E6DC3"
+				"1C7D52F9528B7080"
+				"7BDE7B64EC535D03"
+				"79C672C3E2A920B6"
+				"325D737B459DB26A"
+			]
+			icon: "minecraft:diamond_block"
+			id: "4EBE6C476D21C5B5"
+			rewards: [{
+				id: "3F75BC8F50786CBC"
+				item: "minecraft:diamond_block"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "2F37822F339CB390"
+				type: "checkmark"
+			}]
+			title: "Reunification of Plagatea"
+			x: -7.5d
+			y: -0.5d
+		}
+		{
+			description: ["The Baranovians took our Frozen oceans during the Skittles wars, it is time to reclaim them!"]
+			id: "325D737B459DB26A"
+			tasks: [{
+				biome: "minecraft:frozen_ocean"
+				icon: "minecraft:ice"
+				id: "79C672C3E2A920B6"
+				title: "Visit a Frozen Ocean"
+				type: "biome"
+			}]
+			title: "Reclaim the Shattered Seas"
+			x: -9.0d
+			y: -0.5d
+		}
+		{
+			id: "5A68362210D59783"
+			rewards: [{
+				id: "438436DCE3E0113F"
+				item: {
+					Count: 1
+					id: "alexsmobs:roadrunner_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				title: "Messenger of Plagos"
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.5d
+			subtitle: "Your fearlesness of travelling the many dangers of Plagos has earnt you respect of the Tagavor himself. Awarding you boots that shall help you stride even further distances past Plagos and across Rathnir"
+			tasks: [{
+				icon: {
+					Count: 1
+					id: "alexsmobs:roadrunner_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "7AC88AEF5FFE2266"
+				stat: "minecraft:walk_one_cm"
+				type: "stat"
+				value: 1000000
+			}]
+			title: "Messenger of Plagos"
+			x: -7.5d
+			y: 5.25d
+		}
+	]
+	subtitle: ["Our once, great empire that stretched from the shining lands of Alamayn and the original citadel of the Silver Coalition. To the sands of Nieden. We now live in ruin, but you once more can rebuild our once great empire!!"]
+	title: "&bPlagatèa Domini!!&b"
+}

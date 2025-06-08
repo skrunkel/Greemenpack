@@ -1,0 +1,66 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_forging_of_meds_computer"
+	group: "61244138AA76D7D8"
+	icon: "alexsmobs:lobster_bucket"
+	id: "211856C47381E660"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["0F36D07FA8220AA0"]
+			id: "7D86A52896E8DAB8"
+			rewards: [{
+				id: "6BB44B8CF70B2FC3"
+				item: {
+					Count: 1
+					id: "refurbished_furniture:computer"
+					tag: {
+						RepairCost: 0
+						display: {
+							Name: "{\"text\":\"Med's Computer\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			size: 3.0d
+			tasks: [{
+				id: "3795C8BEF3CC3C67"
+				item: "refurbished_furniture:computer"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -12.0d
+		}
+		{
+			description: ["Using Gaia Ingots to summon the harder version of the &5Guardian of Gaia&r will get you more &6Gaia Spirits&r, but the Guardian can also drop the &6Dice of Fate&r."]
+			id: "0F36D07FA8220AA0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "60D455D6087E8A2C"
+					type: "random"
+				}
+				{
+					id: "001D520EC98273B0"
+					type: "xp"
+					xp: 1000
+				}
+			]
+			shape: "gear"
+			size: 3.0d
+			tasks: [{
+				id: "0FB7824058D6564A"
+				item: "botania:dice"
+				type: "item"
+			}]
+			title: "&6Dice of Fate&r"
+			x: 3.5d
+			y: -12.0d
+		}
+	]
+	title: "The Forging of Med's Computer"
+}

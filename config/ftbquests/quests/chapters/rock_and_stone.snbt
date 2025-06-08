@@ -1,0 +1,1556 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "rock_and_stone"
+	group: "6F1811463D439CE9"
+	icon: "minecraft:stone"
+	id: "666C33F5750F581E"
+	images: [
+		{
+			height: 1.0d
+			image: "minecraft:block/sculk_sensor_tendril_inactive"
+			rotation: 0.0d
+			width: 0.0625d
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			height: 5.0d
+			image: "minecraft:block/sculk_shrieker_side"
+			rotation: 0.0d
+			width: 5.0d
+			x: 8.0d
+			y: 6.0d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["&lROCK AND STONE!! ROCK AND STONE!! ROCK AND STONE!! ROCK AND STONE!! ROCK AND STONE!! ROCK AND STONE!! ROCK AND STONE!! ROCK AND STONE!! ROCK AND STONE!! ROCK AND STONE!! ROCK AND STONE!! ROCK AND STONE!! ROCK AND STONE!! ROCK AND STONE!! ROCK AND STONE!! ROCK AND STONE!! ROCK AND STONE!! ROCK AND STONE!! ROCK AND STONE!! ROCK AND STONE!! ROCK AND STONE!! ROCK AND STONE!! ROCK AND STONE!! ROCK AND STONE!! ROCK AND STONE!! ROCK AND STONE!! ROCK AND STONE!! ROCK AND STONE!! ROCK AND STONE!! ROCK AND STONE!! ROCK AND STONE!! ROCK AND STONE!! ROCK AND STONE!! ROCK AND STONE!! ROCK AND STONE!! ROCK AND STONE!! ROCK AND STONE!! ROCK AND STONE!! ROCK AND STONE!! ROCK AND STONE!!&l"]
+			icon_scale: 2.0d
+			id: "609C09B38953ED23"
+			rewards: [
+				{
+					id: "3A513A8B2C65E1DD"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "18B200C6D7AF511A"
+					type: "choice"
+				}
+			]
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [{
+				biome: "minecraft:deep_dark"
+				icon: {
+					Count: 1
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "minecraft:block/sculk_shrieker_can_summon_inner_top"
+					}
+				}
+				id: "56DCC662290B4465"
+				title: "&6Visit The&r &dDeep Dark&r!"
+				type: "biome"
+			}]
+			title: "{atm9.quest.chapter1.deep_dark}"
+			x: 8.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["1E811A4448A5785F"]
+			id: "4D2FF748ABB1E25C"
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Craft a magnetic cave codex"
+			tasks: [{
+				id: "306D93AE57F0FE0C"
+				item: {
+					Count: 1
+					id: "alexscaves:cave_codex"
+					tag: {
+						CaveBiome: "alexscaves:magnetic_caves"
+					}
+				}
+				type: "item"
+			}]
+			x: 1.9642857142857224d
+			y: 1.7857142857142776d
+		}
+		{
+			dependencies: ["4D2FF748ABB1E25C"]
+			id: "48ADEC20A398A0FF"
+			subtitle: "Craft a magnetic cave map"
+			tasks: [{
+				id: "7E4E5FADC8CA7B0E"
+				item: {
+					Count: 1
+					id: "alexscaves:cave_map"
+					tag: {
+						BiomeTargetResourceKey: "alexscaves:magnetic_caves"
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"5519382215EDAF86"
+				"3AACA5404E4DD9A9"
+			]
+			id: "50DDD2EBB0FED00C"
+			tasks: [{
+				id: "58E7962870BA51FA"
+				item: "alexscaves:telecore"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["33F63FA45FD19352"]
+			id: "3AACA5404E4DD9A9"
+			tasks: [{
+				id: "6A04C971E11F0B58"
+				item: "alexscaves:raw_scarlet_neodymium"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["33F63FA45FD19352"]
+			id: "5519382215EDAF86"
+			tasks: [{
+				id: "7E7716F1C7258C69"
+				item: "alexscaves:raw_azure_neodymium"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2BC4622763574BBC"]
+			id: "3CED4DCB7DDCE0E0"
+			tasks: [{
+				id: "0789C96940840F60"
+				item: "alexscaves:azure_neodymium_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["3FB382D560D71D54"]
+			id: "55FA73281868667C"
+			tasks: [{
+				id: "6979481C64C9A874"
+				item: "alexscaves:scarlet_neodymium_ingot"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 7.0d
+		}
+		{
+			dependencies: [
+				"55FA73281868667C"
+				"3CED4DCB7DDCE0E0"
+			]
+			id: "19F4727D6B6F480D"
+			subtitle: "Find a heavywieght"
+			tasks: [{
+				id: "73BCFEA109635E29"
+				item: "alexscaves:heavyweight"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["26BF96AEEB3636C6"]
+			id: "62092D697703EAF1"
+			shape: "hexagon"
+			tasks: [{
+				id: "6243061CF503B6A9"
+				item: {
+					Count: 1
+					id: "alexscaves:resistor_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["33F63FA45FD19352"]
+			id: "29A8BAC1040AAB90"
+			size: 1.0d
+			tasks: [{
+				entity: "alexscaves:magnetron"
+				id: "5883851C0C55D007"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["29A8BAC1040AAB90"]
+			id: "26BF96AEEB3636C6"
+			tasks: [{
+				id: "6E54D809B279B7DF"
+				item: "alexscaves:heart_of_iron"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["3AACA5404E4DD9A9"]
+			id: "3FB382D560D71D54"
+			subtitle: "Craft a scarlet magnet"
+			tasks: [{
+				id: "6CD54C58AE1FF227"
+				item: "alexscaves:scarlet_magnet"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5519382215EDAF86"]
+			id: "2BC4622763574BBC"
+			subtitle: "Craft a azure magnet"
+			tasks: [{
+				id: "5FE8A5D6AF79E620"
+				item: "alexscaves:azure_magnet"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 5.0d
+		}
+		{
+			id: "0A5684B96C85A5C4"
+			rewards: [
+				{
+					id: "2CBE3318D1F0C599"
+					type: "xp"
+					xp: 25
+				}
+				{
+					exclude_from_claim_all: true
+					id: "63191B8C0241EF14"
+					table_id: 487623848494439020L
+					type: "loot"
+				}
+			]
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Find a splenkery table"
+			tasks: [{
+				id: "4A15DAE7D8FFE711"
+				item: "alexscaves:spelunkery_table"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0A5684B96C85A5C4"]
+			id: "1E811A4448A5785F"
+			tasks: [{
+				id: "1604F741146BF736"
+				item: {
+					Count: 1
+					id: "alexscaves:cave_tablet"
+					tag: {
+						CaveBiome: "alexscaves:magnetic_caves"
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0A5684B96C85A5C4"]
+			id: "0FC129E64996227C"
+			subtitle: "Craft a cave compendium"
+			tasks: [{
+				id: "4EC065AD25B697F2"
+				item: "alexscaves:cave_book"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0A5684B96C85A5C4"]
+			id: "5553566A45F482EE"
+			subtitle: "Find a cave tablet"
+			tasks: [{
+				id: "31D8C808FA246964"
+				item: {
+					Count: 1
+					id: "alexscaves:cave_tablet"
+					tag: {
+						CaveBiome: "alexscaves:toxic_caves"
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2C9F192327086647"]
+			id: "2043CE30E4F2C70B"
+			shape: "hexagon"
+			size: 2.0d
+			subtitle: "Hatch a tremorzilla"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/hatch_tremorzilla_egg"
+				criterion: ""
+				id: "26B3F7991582EAB3"
+				type: "advancement"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5553566A45F482EE"]
+			id: "6B2B23E1988DD3BC"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "3F3076944AADD3F0"
+				item: {
+					Count: 1
+					id: "alexscaves:cave_codex"
+					tag: {
+						CaveBiome: "alexscaves:toxic_caves"
+					}
+				}
+				type: "item"
+			}]
+			x: 4.785714285714292d
+			y: -1.0714285714285765d
+		}
+		{
+			dependencies: ["6B2B23E1988DD3BC"]
+			id: "7B07F15E649043B3"
+			tasks: [{
+				id: "2E64082EDEBC52E5"
+				item: {
+					Count: 1
+					id: "alexscaves:cave_map"
+					tag: {
+						BiomeTargetResourceKey: "alexscaves:toxic_caves"
+					}
+				}
+				type: "item"
+			}]
+			title: "Toxic Caves Map"
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"1476D259B6D041AB"
+				"2C9F192327086647"
+			]
+			id: "3C6DDF8DBA357693"
+			tasks: [{
+				id: "07A390F732A1C27C"
+				item: "alexscaves:fissile_core"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			id: "71E1B67774A7CC18"
+			tasks: [{
+				id: "17EA313CC6ECC3F5"
+				item: "alexscaves:toxic_paste"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -1.0d
+		}
+		{
+			id: "78C639C427E69A7D"
+			tasks: [{
+				id: "44B5C5B1B7580F2F"
+				item: "alexscaves:sulfur_dust"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -2.0d
+		}
+		{
+			id: "5B87C475B5C3FEB9"
+			tasks: [{
+				id: "4C4F6739976A1573"
+				item: "alexscaves:radon_bottle"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -1.0d
+		}
+		{
+			id: "15298CB7EEAA0B85"
+			tasks: [{
+				id: "3E6365ECEC7B4622"
+				item: "alexscaves:uranium"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.5d
+		}
+		{
+			id: "7ED109E374AF71E6"
+			tasks: [{
+				id: "5B518FE7120F2E59"
+				item: "alexscaves:uranium_rod"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 2.0d
+		}
+		{
+			id: "7286813A3439FCF4"
+			shape: "hexagon"
+			tasks: [{
+				id: "28C70989C982F46C"
+				item: "alexscaves:raygun"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"3C6DDF8DBA357693"
+				"7ED109E374AF71E6"
+			]
+			id: "5711260CA04BDED4"
+			tasks: [{
+				id: "03681F9E08014B0B"
+				item: "alexscaves:nuclear_bomb"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2C9F192327086647"]
+			id: "1476D259B6D041AB"
+			tasks: [{
+				entity: "alexscaves:nucleeper"
+				id: "4D9A014552FD12A1"
+				type: "kill"
+				value: 1L
+			}]
+			x: 8.0d
+			y: 0.5d
+		}
+		{
+			id: "7E1C5605BC1458D4"
+			tasks: [{
+				id: "754A01810D9B5EFA"
+				item: "alexscaves:charred_remnant"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			id: "024EE909A2D14C50"
+			tasks: [{
+				id: "597A36A0D61AB180"
+				item: "alexscaves:nuclear_furnace_component"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.5d
+		}
+		{
+			id: "6DBE78D7119A6E9C"
+			tasks: [{
+				id: "27A9E3F047676E34"
+				item: "alexscaves:remote_detonator"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 0.5d
+		}
+		{
+			id: "4C798BB82F9A0D14"
+			tasks: [{
+				id: "6426E948B3E09866"
+				item: "alexscaves:polymer_plate"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -2.0d
+		}
+		{
+			id: "12502793B61B3B1B"
+			tasks: [{
+				id: "3E87CDF5092A1AA2"
+				item: {
+					Count: 1
+					id: "alexscaves:hazmat_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: -1.0d
+		}
+		{
+			id: "2E963D72E0273CEF"
+			tasks: [{
+				id: "54139F507B8ED774"
+				item: {
+					Count: 1
+					id: "alexscaves:hazmat_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 0.0d
+		}
+		{
+			id: "261FE3D507B08689"
+			tasks: [{
+				id: "26ACE198FD88AA81"
+				item: {
+					Count: 1
+					id: "alexscaves:hazmat_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 1.0d
+		}
+		{
+			id: "0665B75381935CC4"
+			tasks: [{
+				id: "2C676666C1E4C377"
+				item: {
+					Count: 1
+					id: "alexscaves:hazmat_mask"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7DC80E4C2E5BEB88"]
+			description: ["&9"]
+			icon: "alexscaves:submarine"
+			id: "7B519DFF2997CEB0"
+			progression_mode: "flexible"
+			size: 1.5d
+			tasks: [{
+				biome: "alexscaves:abyssal_chasm"
+				id: "4AB9A728AA1D45B8"
+				type: "biome"
+			}]
+			title: "&9&lBarotrauma Simulator"
+			x: -5.11785714285714d
+			y: -0.9380952380952223d
+		}
+		{
+			dependencies: ["48ADEC20A398A0FF"]
+			id: "33F63FA45FD19352"
+			tasks: [{
+				biome: "alexscaves:magnetic_caves"
+				id: "6A482391489577CF"
+				type: "biome"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7AA51082B2BF037B"]
+			id: "037B13CC5273B73C"
+			tasks: [{
+				id: "3AEACF8893DD6242"
+				item: {
+					Count: 1
+					id: "alexscaves:cave_map"
+					tag: {
+						BiomeTargetResourceKey: "alexscaves:forlorn_hollows"
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["73213845BA665491"]
+			id: "7AA51082B2BF037B"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "2DE12E70CB84062C"
+				item: {
+					Count: 1
+					id: "alexscaves:cave_codex"
+					tag: {
+						CaveBiome: "alexscaves:forlorn_hollows"
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0238095238095255d
+			y: -3.773809523809529d
+		}
+		{
+			dependencies: ["0A5684B96C85A5C4"]
+			id: "1CA89B7B4DA3354C"
+			subtitle: "Find a cave tablet"
+			tasks: [{
+				id: "12948D432DC661DA"
+				item: {
+					Count: 1
+					id: "alexscaves:cave_tablet"
+					tag: {
+						CaveBiome: "alexscaves:abyssal_chasm"
+					}
+				}
+				type: "item"
+			}]
+			title: "Hello I am under the water"
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"7AA51082B2BF037B"
+				"037B13CC5273B73C"
+			]
+			id: "4ED61E00058D8A62"
+			progression_mode: "flexible"
+			tasks: [{
+				biome: "alexscaves:forlorn_hollows"
+				id: "588CBC60C48CB3B5"
+				type: "biome"
+			}]
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4ED61E00058D8A62"]
+			id: "2FC0C2D4C5AFBA01"
+			tasks: [{
+				id: "28383B95C3250B16"
+				item: "alexscaves:thornwood_branch"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["4ED61E00058D8A62"]
+			id: "506E48CB33CE022C"
+			tasks: [{
+				id: "154A0B05C731939C"
+				item: "alexscaves:occult_gem"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"506E48CB33CE022C"
+				"2FC0C2D4C5AFBA01"
+			]
+			id: "7DC5FEFA4740ECE2"
+			tasks: [{
+				id: "5E6975A9DF2DE1BB"
+				item: "alexscaves:beholder"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["4ED61E00058D8A62"]
+			id: "4E0F0D0ACD8CB349"
+			shape: "hexagon"
+			tasks: [{
+				id: "1EA60BF7349ECDFB"
+				item: {
+					Count: 1
+					id: "alexscaves:desolate_dagger"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["4ED61E00058D8A62"]
+			id: "7A59EA894D63FC67"
+			tasks: [{
+				id: "3FD56B104C7EA75E"
+				item: "alexscaves:corrodent_teeth"
+				type: "item"
+			}]
+			x: 0.3452380952380949d
+			y: -4.86904761904762d
+		}
+		{
+			dependencies: ["4ED61E00058D8A62"]
+			id: "6113BE6316953329"
+			tasks: [{
+				id: "51D5A23041D0BD30"
+				item: "alexscaves:dark_tatters"
+				type: "item"
+			}]
+			x: -0.6547619047619051d
+			y: -4.86904761904762d
+		}
+		{
+			dependencies: ["4ED61E00058D8A62"]
+			id: "318B7316F471F6CD"
+			tasks: [{
+				id: "567FDA85FACF1D4F"
+				item: "alexscaves:moth_dust"
+				type: "item"
+			}]
+			x: -1.654761904761905d
+			y: -5.36904761904762d
+		}
+		{
+			dependencies: [
+				"7A59EA894D63FC67"
+				"6113BE6316953329"
+			]
+			id: "7E48A912ACCCEC66"
+			shape: "hexagon"
+			tasks: [{
+				id: "79A587E70002D562"
+				item: "alexscaves:burrowing_arrow"
+				type: "item"
+			}]
+			x: -0.12499999999998579d
+			y: -3.761904761904759d
+		}
+		{
+			dependencies: [
+				"506E48CB33CE022C"
+				"318B7316F471F6CD"
+			]
+			id: "3D56B07076DE35E9"
+			tasks: [{
+				id: "707F87CA209A7427"
+				item: "alexscaves:shadow_silk"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["506E48CB33CE022C"]
+			id: "64FDB64BFD787E7F"
+			tasks: [{
+				id: "15931272574DD358"
+				item: {
+					Count: 1
+					id: "alexscaves:cloak_of_darkness"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["506E48CB33CE022C"]
+			id: "34F91B95ED583D4F"
+			tasks: [{
+				id: "707450C9CCD5DA3E"
+				item: {
+					Count: 1
+					id: "alexscaves:hood_of_darkness"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -9.0d
+		}
+		{
+			dependencies: [
+				"480ACF971062634C"
+				"06CA39F878A9AB54"
+			]
+			id: "2B0762A46DDF1530"
+			shape: "hexagon"
+			tasks: [{
+				id: "765CBD41FA706F57"
+				item: {
+					Count: 1
+					id: "alexscaves:dreadbow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["4ED61E00058D8A62"]
+			id: "480ACF971062634C"
+			tasks: [{
+				id: "004213095F735BCE"
+				item: "alexscaves:pure_darkness"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["4ED61E00058D8A62"]
+			id: "06CA39F878A9AB54"
+			tasks: [{
+				id: "0CE4A4499F71EB81"
+				item: "alexscaves:vesper_wing"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1CA89B7B4DA3354C"]
+			id: "74587ADC0C14719E"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "39937EE30246DFC5"
+				item: {
+					Count: 1
+					id: "alexscaves:cave_codex"
+					tag: {
+						CaveBiome: "alexscaves:abyssal_chasm"
+					}
+				}
+				type: "item"
+			}]
+			title: "Abyssal Chasm Codex"
+			x: -1.017857142857146d
+			y: -0.9642857142857082d
+		}
+		{
+			dependencies: ["74587ADC0C14719E"]
+			id: "7DC80E4C2E5BEB88"
+			tasks: [{
+				id: "18E03365377E738E"
+				item: {
+					Count: 1
+					id: "alexscaves:cave_map"
+					tag: {
+						BiomeTargetResourceKey: "alexscaves:abyssal_chasm"
+					}
+				}
+				type: "item"
+			}]
+			title: "Map to Atlantis"
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7B519DFF2997CEB0"]
+			id: "0B1C84BFA2CBC4B7"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/pearl_on_abyssal_altar"
+				criterion: ""
+				id: "4FF50DB399E2E5BB"
+				type: "advancement"
+			}]
+			x: -8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0B1C84BFA2CBC4B7"]
+			id: "0795DCD4F547CB7F"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/trade_with_deep_one"
+				criterion: ""
+				id: "188F46548928C634"
+				type: "advancement"
+			}]
+			x: -9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0795DCD4F547CB7F"]
+			id: "56762F19D6808663"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/deep_ones_become_neutral"
+				criterion: ""
+				id: "202403A2678A365F"
+				type: "advancement"
+			}]
+			x: -10.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["56762F19D6808663"]
+			id: "3EB60388120E6DCF"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "alexscaves:alexscaves/deep_ones_become_helpful"
+				criterion: ""
+				id: "41D7DEBBF2668EF6"
+				type: "advancement"
+			}]
+			x: -12.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7B519DFF2997CEB0"]
+			id: "69AAF07F416B1BA1"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				entity: "alexscaves:hullbreaker"
+				id: "0AC30383D34A9A03"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["69AAF07F416B1BA1"]
+			id: "119671F96C5BA95A"
+			tasks: [{
+				id: "007B366206A794F6"
+				item: "alexscaves:immortal_embryo"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["69AAF07F416B1BA1"]
+			id: "6EBE8570AF592A73"
+			tasks: [{
+				id: "7DCCE42414111966"
+				item: "alexscaves:enigmatic_engine"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7B519DFF2997CEB0"]
+			id: "4DA9480AE3A4BCDA"
+			tasks: [{
+				id: "4F835EAE5C1EDACB"
+				item: "alexscaves:gazing_pearl"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7B519DFF2997CEB0"]
+			id: "046E708CEABF2720"
+			tasks: [{
+				id: "05849AF272A9ED91"
+				item: {
+					Count: 1
+					id: "alexscaves:magic_conch"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7B519DFF2997CEB0"]
+			id: "2CFFA808492CF123"
+			tasks: [{
+				id: "7130E9E42791ABBF"
+				item: {
+					Count: 1
+					id: "alexscaves:sea_staff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7B519DFF2997CEB0"]
+			id: "246907646E6C756D"
+			tasks: [{
+				id: "6ADB5939DD99B38F"
+				item: {
+					Count: 1
+					id: "alexscaves:ortholance"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"2CFFA808492CF123"
+				"246907646E6C756D"
+				"4DA9480AE3A4BCDA"
+				"046E708CEABF2720"
+			]
+			id: "2F79164976CF60B2"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/deep_one_items"
+				criterion: ""
+				id: "2345DD958C3FE4CA"
+				type: "advancement"
+			}]
+			x: -7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["7B519DFF2997CEB0"]
+			id: "7F3C0625221AEDA4"
+			tasks: [{
+				id: "5F03A3995CBED735"
+				item: {
+					Count: 1
+					id: "alexscaves:diving_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -7.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7B519DFF2997CEB0"]
+			id: "3045F36825937916"
+			tasks: [{
+				id: "5DA2E6F1290CB5B9"
+				item: {
+					Count: 1
+					id: "alexscaves:diving_leggings"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["7B519DFF2997CEB0"]
+			id: "6BE99F7A5D0B51EE"
+			tasks: [{
+				id: "3D94232466A0AB5C"
+				item: {
+					Count: 1
+					id: "alexscaves:diving_chestplate"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7B519DFF2997CEB0"]
+			id: "4A932A353FE52848"
+			tasks: [{
+				id: "2971BE5B72B0709F"
+				item: {
+					Count: 1
+					id: "alexscaves:diving_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"6BE99F7A5D0B51EE"
+				"7F3C0625221AEDA4"
+				"3045F36825937916"
+				"4A932A353FE52848"
+			]
+			id: "2BBBCE1E1B8E0B23"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/diving_armor"
+				criterion: ""
+				id: "77DF30C18551C709"
+				type: "advancement"
+			}]
+			x: -7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["28C067CB4AF23871"]
+			id: "2F8908DD179316A1"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "58991129A5ABF3FD"
+				item: {
+					Count: 1
+					id: "alexscaves:cave_codex"
+					tag: {
+						CaveBiome: "alexscaves:primordial_caves"
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: -3.75d
+		}
+		{
+			dependencies: ["2F8908DD179316A1"]
+			id: "2B985E61486F16B7"
+			tasks: [{
+				id: "7272ADE4196645C3"
+				item: {
+					Count: 1
+					id: "alexscaves:cave_map"
+					tag: {
+						BiomeTargetResourceKey: "alexscaves:primordial_caves"
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["20EF37A724CCB1C5"]
+			icon: "alexscaves:vallumraptor_egg"
+			id: "7FD32E1343390654"
+			tasks: [{
+				id: "7F91BC2FC7B2E7AF"
+				observe_type: 0
+				timer: 0L
+				to_observe: "alexscaves:vallumraptor_egg"
+				type: "observation"
+			}]
+			x: 5.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["20EF37A724CCB1C5"]
+			id: "5A71D8B1BC672338"
+			tasks: [{
+				icon: "alexscaves:subterranodon_egg"
+				id: "6857399DAC3A7B64"
+				observe_type: 0
+				timer: 0L
+				to_observe: "alexscaves:subterranodon_egg"
+				type: "observation"
+			}]
+			x: 5.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["20EF37A724CCB1C5"]
+			id: "4CC7110D52714D64"
+			tasks: [{
+				icon: "alexscaves:relicheirus_egg"
+				id: "2E0DC71485BAA7D5"
+				observe_type: 0
+				timer: 0L
+				to_observe: "alexscaves:relicheirus_egg"
+				type: "observation"
+			}]
+			x: 6.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["20EF37A724CCB1C5"]
+			icon: "alexscaves:grottoceratops_egg"
+			id: "394AD8E501735D5D"
+			tasks: [{
+				id: "3FE9E234F317CA91"
+				observe_type: 0
+				timer: 0L
+				to_observe: "alexscaves:grottoceratops_egg"
+				type: "observation"
+			}]
+			x: 4.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["20EF37A724CCB1C5"]
+			icon: "alexscaves:grottoceratops_egg"
+			id: "0FB91D3663BAF3F5"
+			tasks: [{
+				id: "4BA4952ACB04F6AF"
+				observe_type: 0
+				timer: 0L
+				to_observe: "alexscaves:grottoceratops_egg"
+				type: "observation"
+			}]
+			x: 5.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["20EF37A724CCB1C5"]
+			id: "2FF9A69D2BE1C8DC"
+			tasks: [{
+				icon: "alexscaves:tremorsaurus_egg"
+				id: "6C3F58480BBE2BAD"
+				observe_type: 0
+				timer: 0L
+				to_observe: "alexscaves:tremorsaurus_egg"
+				type: "observation"
+			}]
+			x: 6.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["20EF37A724CCB1C5"]
+			id: "64F47B53D917AB2E"
+			tasks: [{
+				id: "794D97C0AB6CD1B6"
+				item: "alexscaves:amber_curiosity"
+				type: "item"
+			}]
+			x: 7.958333333333336d
+			y: -7.238095238095248d
+		}
+		{
+			dependencies: ["64F47B53D917AB2E"]
+			id: "53A33E2290D5576F"
+			shape: "hexagon"
+			size: 1.3d
+			tasks: [{
+				id: "2D58CE7230615E77"
+				item: "alexscaves:ominous_catalyst"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -8.5d
+		}
+		{
+			id: "4E54E2C195914DEA"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				advancement: "alexscaves:alexscaves/summon_luxtructosaurus"
+				criterion: ""
+				id: "1365AE76DA446AAB"
+				type: "advancement"
+			}]
+			x: 7.5535714285714235d
+			y: -10.178571428571423d
+		}
+		{
+			dependencies: [
+				"4E54E2C195914DEA"
+				"53A33E2290D5576F"
+				"204B7D1D8AA72335"
+			]
+			id: "1A545B7F107368D2"
+			shape: "hexagon"
+			size: 3.0d
+			tasks: [{
+				advancement: "alexscaves:alexscaves/defeat_luxtructosaurus"
+				criterion: ""
+				id: "2089550AC742F090"
+				type: "advancement"
+			}]
+			x: 10.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["20EF37A724CCB1C5"]
+			id: "3537517FD794FF31"
+			tasks: [{
+				id: "39CCAE8C4F0AC75C"
+				item: "alexscaves:limestone_spear"
+				type: "item"
+			}]
+			x: 8.636904761904766d
+			y: -6.023809523809533d
+		}
+		{
+			dependencies: [
+				"64F47B53D917AB2E"
+				"23A37F505B0D5A30"
+			]
+			id: "13002B5AFA818945"
+			shape: "hexagon"
+			tasks: [{
+				id: "67A135FDBC322499"
+				item: {
+					Count: 1
+					id: "alexscaves:extinction_spear"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 10.0d
+			y: -7.0d
+		}
+		{
+			id: "204B7D1D8AA72335"
+			tasks: [{
+				id: "402CD08333EE3D28"
+				item: "alexscaves:tectonic_shard"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["20EF37A724CCB1C5"]
+			id: "23A37F505B0D5A30"
+			tasks: [{
+				id: "52ED94D607F20F13"
+				item: "alexscaves:heavy_bone"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["20EF37A724CCB1C5"]
+			id: "4EDD148D0EBCDF79"
+			tasks: [{
+				id: "7F0E533DE1FCA392"
+				item: "alexscaves:tough_hide"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["23A37F505B0D5A30"]
+			id: "03424DEE723D4518"
+			shape: "hexagon"
+			tasks: [{
+				id: "24C9B059A7E5218F"
+				item: {
+					Count: 1
+					id: "alexscaves:primitive_club"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"4EDD148D0EBCDF79"
+				"23A37F505B0D5A30"
+			]
+			id: "469FF21DAB34F914"
+			tasks: [{
+				id: "7176FC6A689AE0E9"
+				item: {
+					Count: 1
+					id: "alexscaves:primordial_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"4EDD148D0EBCDF79"
+				"23A37F505B0D5A30"
+			]
+			id: "56E737E82F6AB6CD"
+			tasks: [{
+				id: "13D141754EC4A370"
+				item: {
+					Count: 1
+					id: "alexscaves:primordial_tunic"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.5d
+		}
+		{
+			id: "4C2D8483BCE6F631"
+			tasks: [{
+				advancement: "alexscaves:alexscaves/primordial_armor"
+				criterion: ""
+				id: "798CCE5059C2BAF4"
+				type: "advancement"
+			}]
+			x: 11.5d
+			y: -6.5d
+		}
+		{
+			dependencies: [
+				"4EDD148D0EBCDF79"
+				"23A37F505B0D5A30"
+			]
+			id: "47BE6A15FEDF5712"
+			tasks: [{
+				id: "08375033052C9792"
+				item: {
+					Count: 1
+					id: "alexscaves:primordial_pants"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0A5684B96C85A5C4"]
+			id: "73213845BA665491"
+			subtitle: "Find a cave tablet"
+			tasks: [{
+				id: "25443B8121ABADE2"
+				item: {
+					Count: 1
+					id: "alexscaves:cave_tablet"
+					tag: {
+						CaveBiome: "alexscaves:forlorn_hollows"
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["0A5684B96C85A5C4"]
+			id: "28C067CB4AF23871"
+			subtitle: "Find a cave tablet"
+			tasks: [{
+				id: "1C0FEFFAD4317326"
+				item: {
+					Count: 1
+					id: "alexscaves:cave_tablet"
+					tag: {
+						CaveBiome: "alexscaves:primordial_caves"
+					}
+				}
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7B07F15E649043B3"]
+			id: "2C9F192327086647"
+			progression_mode: "flexible"
+			tasks: [{
+				biome: "alexscaves:magnetic_caves"
+				id: "0029984D200AB2A1"
+				type: "biome"
+			}]
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"19F4727D6B6F480D"
+				"3CED4DCB7DDCE0E0"
+				"55FA73281868667C"
+			]
+			id: "5088EB97D6B33E45"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "055D9BA7BE11CDA7"
+				item: "alexscaves:quarry_smasher"
+				type: "item"
+			}]
+			x: 2.0178571428571246d
+			y: 7.25d
+		}
+		{
+			dependencies: ["2B985E61486F16B7"]
+			id: "20EF37A724CCB1C5"
+			tasks: [{
+				biome: "alexscaves:primordial_caves"
+				id: "360BCC5BF9B23D5B"
+				title: "Spelunky"
+				type: "biome"
+			}]
+			x: 7.0d
+			y: -5.5d
+		}
+	]
+	title: "&8Plagatèa &lROCK AND STONE!!&l&8"
+}

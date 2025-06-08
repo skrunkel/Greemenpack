@@ -1,0 +1,88 @@
+{
+	id: "599250FFA7DFC094"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{
+			count: 16
+			item: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:762x39"
+				}
+			}
+		}
+		{
+			count: 16
+			item: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:762x54"
+				}
+			}
+		}
+		{
+			count: 16
+			item: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:58x42"
+				}
+			}
+		}
+		{
+			count: 16
+			item: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:556x45"
+				}
+			}
+		}
+		{
+			count: 16
+			item: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:762x25"
+				}
+			}
+		}
+		{
+			count: 16
+			item: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:46x30"
+				}
+			}
+		}
+		{
+			count: 16
+			item: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:9mm"
+				}
+			}
+		}
+		{
+			count: 16
+			item: {
+				Count: 1
+				id: "tacz:ammo"
+				tag: {
+					AmmoId: "tacz:68x51fury"
+				}
+			}
+		}
+	]
+	title: "Fortnite Loot Crate"
+}
